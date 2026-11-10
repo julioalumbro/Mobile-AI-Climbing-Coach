@@ -43,6 +43,16 @@ const SkeletonPlayer = forwardRef<SkeletonPlayerHandle, Props>(function Skeleton
   const [loading, setLoading] = useState(true);
   const [failed, setFailed] = useState(false);
 
+  // iPhone Safari doesn't load any video data until the user presses play,
+  // so "loaded" events may never fire on their own. Never keep the spinner
+  // up for more than a few seconds, and it never blocks taps (see below).
+  useEffect(() => {
+    setLoading(true);
+    setFailed(false);
+    const timer = window.setTimeout(() => setLoading(false), 4000);
+    return () => window.clearTimeout(timer);
+  }, [src]);
+
   useImperativeHandle(ref, () => ({
     seekTo(seconds: number) {
       const video = videoRef.current;
@@ -163,7 +173,10 @@ const SkeletonPlayer = forwardRef<SkeletonPlayerHandle, Props>(function Skeleton
           muted
           loop
           preload="auto"
+          onLoadedMetadata={() => setLoading(false)}
           onLoadedData={() => setLoading(false)}
+          onCanPlay={() => setLoading(false)}
+          onPlaying={() => setLoading(false)}
           onError={() => {
             setLoading(false);
             setFailed(true);
@@ -171,12 +184,12 @@ const SkeletonPlayer = forwardRef<SkeletonPlayerHandle, Props>(function Skeleton
         />
         <canvas ref={canvasRef} className="pointer-events-none absolute inset-0 h-full w-full" aria-hidden />
         {loading && (
-          <div className="absolute inset-0 grid place-items-center">
+          <div className="pointer-events-none absolute inset-0 grid place-items-center">
             <Loader2 className="h-8 w-8 animate-spin text-lime-300" />
           </div>
         )}
         {failed && (
-          <div className="absolute inset-0 grid place-items-center p-6 text-center text-sm text-slate-300">
+          <div className="pointer-events-none absolute inset-0 grid place-items-center bg-black/70 p-6 text-center text-sm text-slate-300">
             The video couldn't load. The link may have expired: go back and reopen this analysis.
           </div>
         )}
