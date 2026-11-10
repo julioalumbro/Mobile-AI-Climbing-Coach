@@ -1,0 +1,218 @@
+{
+    "source_video_metrics": "metrics.json",
+    "total_movement_cycles": 2,
+    "movement_analyses": [
+        {
+            "foot": "left",
+            "first_event": {
+                "start_frame": 347,
+                "end_frame": 369
+            },
+            "second_event": {
+                "start_frame": 388,
+                "end_frame": 400
+            },
+            "foot_stability": {
+                "pre_event_speed": {
+                    "average_speed": 0.4084420328639301,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "between_event_speed": {
+                    "average_speed": 0.6643300012368976,
+                    "valid_frames": 18,
+                    "total_frames": 18,
+                    "tracking_coverage": 100.0
+                },
+                "post_event_speed": {
+                    "average_speed": 0.5376366546508297,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                }
+            },
+            "elbow_positioning": {
+                "left": {
+                    "before": {
+                        "average_angle": 90.89077235026512,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    },
+                    "during": {
+                        "average_angle": 88.77238742248515,
+                        "valid_frames": 23,
+                        "total_frames": 23,
+                        "tracking_coverage": 100.0
+                    },
+                    "after": {
+                        "average_angle": 72.03439563202625,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    }
+                },
+                "right": {
+                    "before": {
+                        "average_angle": 92.78580628408262,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    },
+                    "during": {
+                        "average_angle": 75.29747934707723,
+                        "valid_frames": 23,
+                        "total_frames": 23,
+                        "tracking_coverage": 100.0
+                    },
+                    "after": {
+                        "average_angle": 68.398618685522,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    }
+                }
+            },
+            "elbow_changes": {
+                "left": {
+                    "before_to_during": -2.118384927779971,
+                    "during_to_after": -16.737991790458906,
+                    "overall_change": -18.856376718238877
+                },
+                "right": {
+                    "before_to_during": -17.488326937005397,
+                    "during_to_after": -6.898860661555233,
+                    "overall_change": -24.38718759856063
+                }
+            },
+            "hip_movement": {
+                "before": {
+                    "average_velocity": 0.02171373367309568,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "during": {
+                    "average_velocity": -0.06301179809044073,
+                    "valid_frames": 23,
+                    "total_frames": 23,
+                    "tracking_coverage": 100.0
+                },
+                "after": {
+                    "average_velocity": -0.027088975771290692,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                }
+            },
+            "verified_movement_type": "release_return"
+        },
+        {
+            "foot": "right",
+            "first_event": {
+                "start_frame": 351,
+                "end_frame": 364
+            },
+            "second_event": {
+                "start_frame": 379,
+                "end_frame": 382
+            },
+            "foot_stability": {
+                "pre_event_speed": {
+                    "average_speed": 0.45720758061890576,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "between_event_speed": {
+                    "average_speed": 0.39733569121423157,
+                    "valid_frames": 14,
+                    "total_frames": 14,
+                    "tracking_coverage": 100.0
+                },
+                "post_event_speed": {
+                    "average_speed": 0.8533265222950833,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                }
+            },
+            "elbow_positioning": {
+                "left": {
+                    "before": {
+                        "average_angle": 93.73524403844998,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    },
+                    "during": {
+                        "average_angle": 91.70236022121958,
+                        "valid_frames": 14,
+                        "total_frames": 14,
+                        "tracking_coverage": 100.0
+                    },
+                    "after": {
+                        "average_angle": 73.21278926237085,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    }
+                },
+                "right": {
+                    "before": {
+                        "average_angle": 85.50264017102339,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    },
+                    "during": {
+                        "average_angle": 74.69361798339608,
+                        "valid_frames": 14,
+                        "total_frames": 14,
+                        "tracking_coverage": 100.0
+                    },
+                    "after": {
+                        "average_angle": 72.05085749859144,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    }
+                }
+            },
+            "elbow_changes": {
+                "left": {
+                    "before_to_during": -2.032883817230399,
+                    "during_to_after": -18.48957095884873,
+                    "overall_change": -20.52245477607913
+                },
+                "right": {
+                    "before_to_during": -10.809022187627306,
+                    "during_to_after": -2.64276048480464,
+                    "overall_change": -13.451782672431946
+                }
+            },
+            "hip_movement": {
+                "before": {
+                    "average_velocity": 0.007335958669948839,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "during": {
+                    "average_velocity": -0.06309148996091465,
+                    "valid_frames": 14,
+                    "total_frames": 14,
+                    "tracking_coverage": 100.0
+                },
+                "after": {
+                    "average_velocity": -0.07532953878300039,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                }
+            },
+            "verified_movement_type": "release_return"
+        }
+    ]
+}

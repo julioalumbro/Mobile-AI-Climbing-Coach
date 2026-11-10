@@ -27,3 +27,18 @@ Thumbs.db
 
 # python env
 .env
+
+# Mobile beta
+node_modules/
+dist/
+dev-dist/
+*.tsbuildinfo
+server/data/
+server/models/
+.pytest_cache/
+_to_delete/
+*.mp4
+
+# Phase backups (several GB, too large for GitHub)
+legacy/PhaseZipFiles/
+*.zip

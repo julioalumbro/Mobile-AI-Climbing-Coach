@@ -1,0 +1,97 @@
+{
+    "movements": [
+        {
+            "start_seconds": 0.0,
+            "end_seconds": 2.5,
+            "movement_type": "foot placement",
+            "body_parts": [
+                "right leg",
+                "right foot"
+            ],
+            "observation": "Climber repositions the right foot onto a higher foothold to establish stability.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 3.0,
+            "end_seconds": 5.5,
+            "movement_type": "hand movement",
+            "body_parts": [
+                "left arm",
+                "left hand"
+            ],
+            "observation": "Climber moves the left hand up to adjust grip on the undercling/pinch hold.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 5.5,
+            "end_seconds": 8.0,
+            "movement_type": "high step",
+            "body_parts": [
+                "left leg",
+                "left foot"
+            ],
+            "observation": "Climber brings the left foot up high onto an edge hold to load weight onto the lower body.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 8.0,
+            "end_seconds": 11.5,
+            "movement_type": "reach",
+            "body_parts": [
+                "left arm",
+                "left hand",
+                "torso"
+            ],
+            "observation": "Climber extends the left arm upward to establish a hold while pressing with the legs.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 10.5,
+            "end_seconds": 13.0,
+            "movement_type": "foot placement",
+            "body_parts": [
+                "right leg",
+                "right foot"
+            ],
+            "observation": "Climber extends the right leg outward to place the right foot on a side foothold for lateral tension.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 14.5,
+            "end_seconds": 18.0,
+            "movement_type": "long reach",
+            "body_parts": [
+                "left arm",
+                "left hand",
+                "legs"
+            ],
+            "observation": "Climber drives through the legs and extends the left arm straight overhead to catch a distant hold.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 20.5,
+            "end_seconds": 23.5,
+            "movement_type": "dynamic move",
+            "body_parts": [
+                "full body",
+                "left arm",
+                "right arm"
+            ],
+            "observation": "Climber initiates a powerful dynamic movement upward, latching upper holds with both hands.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 24.0,
+            "end_seconds": 27.5,
+            "movement_type": "foot repositioning",
+            "body_parts": [
+                "left leg",
+                "left foot",
+                "right leg",
+                "right foot"
+            ],
+            "observation": "Climber walks both feet higher onto footholds to secure position and control swing after the dynamic move.",
+            "confidence": "high"
+        }
+    ]
+}

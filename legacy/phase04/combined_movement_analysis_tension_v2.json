@@ -1,0 +1,148 @@
+{
+    "schema_version": 2,
+    "video_file": "climbingTestTension.mov",
+    "movement_type": "heel_hook_readjustment",
+    "target_foot": "right",
+    "frame_count": 3,
+    "frames": [
+        {
+            "frame": 664,
+            "timestamp_seconds": 11.079015232022671,
+            "mediapipe": {
+                "frame": 664,
+                "timestamp_seconds": 11.079015232022671,
+                "hip_x": 0.6619616150856018,
+                "hip_y": 0.5739087760448456,
+                "hip_vertical_velocity": -0.08302008002865403,
+                "left_arm_valid": true,
+                "left_elbow_angle": 106.88503555407273,
+                "left_elbow_position": "Slightly Bent",
+                "right_arm_valid": false,
+                "right_elbow_angle": null,
+                "right_elbow_position": null,
+                "left_leg_tracking_valid": true,
+                "right_leg_tracking_valid": true,
+                "left_knee_angle": 80.07859697636366,
+                "right_knee_angle": 37.27893020191522,
+                "left_hip_angle": 107.65170881572988,
+                "right_hip_angle": null,
+                "left_foot_dx": -0.1537526249885559,
+                "left_foot_dy": 0.012215346097946167,
+                "right_foot_dx": 0.09263181686401367,
+                "right_foot_dy": 0.05383077263832092,
+                "left_foot_vx": -0.059275051115122906,
+                "left_foot_vy": 0.08527062436678019,
+                "right_foot_vx": 1.0390191642312465,
+                "right_foot_vy": -0.38916555586581625,
+                "left_foot_speed": 0.10384898201042204,
+                "right_foot_speed": 1.1095091948749896
+            },
+            "gemini": {
+                "frame": 664,
+                "foot_position": "Positioned below and to the right of the pelvis, with the sole/heel placed near a lower foothold on the overhanging wall.",
+                "foothold_contact": "yes",
+                "body_position": "Torso is angled toward the wall with hips open and facing inward toward the climbing surface.",
+                "arm_position": "Left arm is extended upward toward a handhold with moderate elbow extension; right arm is bent and largely occluded on the right side of the torso.",
+                "uncertainties": [
+                    "Exact point of contact and weight bearing on the right foothold due to slight motion blur."
+                ]
+            }
+        },
+        {
+            "frame": 668,
+            "timestamp_seconds": 11.145756287637266,
+            "mediapipe": {
+                "frame": 668,
+                "timestamp_seconds": 11.145756287637266,
+                "hip_x": 0.6628216505050659,
+                "hip_y": 0.5700979232788086,
+                "hip_vertical_velocity": -0.044667946672904045,
+                "left_arm_valid": true,
+                "left_elbow_angle": 101.04717252273377,
+                "left_elbow_position": "Slightly Bent",
+                "right_arm_valid": false,
+                "right_elbow_angle": null,
+                "right_elbow_position": null,
+                "left_leg_tracking_valid": true,
+                "right_leg_tracking_valid": true,
+                "left_knee_angle": 84.57487883743798,
+                "right_knee_angle": 107.9330878653418,
+                "left_hip_angle": 109.18421900605277,
+                "right_hip_angle": null,
+                "left_foot_dx": -0.15032988786697388,
+                "left_foot_dy": 0.014330029487609863,
+                "right_foot_dx": 0.16641026735305786,
+                "right_foot_dy": 0.02279508113861084,
+                "left_foot_vx": 0.06228113533819142,
+                "left_foot_vy": 0.07098502625857936,
+                "right_foot_vx": 4.874484346434559,
+                "right_foot_vy": -0.6027493581391896,
+                "left_foot_speed": 0.09443417692734615,
+                "right_foot_speed": 4.911609148982923
+            },
+            "gemini": {
+                "frame": 668,
+                "foot_position": "Lifted off the lower foothold and moving upward and rightward in the air, with the knee bent.",
+                "foothold_contact": "no",
+                "body_position": "Hips and torso remain close to the wall, shifting slightly rightward as the right leg repositions.",
+                "arm_position": "Left arm maintains grip on the upper handhold; right arm remains flexed against a hold near the torso.",
+                "uncertainties": [
+                    "Exact right hand grip position and right elbow angle due to occlusion by the torso."
+                ]
+            }
+        },
+        {
+            "frame": 697,
+            "timestamp_seconds": 11.629628940843075,
+            "mediapipe": {
+                "frame": 697,
+                "timestamp_seconds": 11.629628940843075,
+                "hip_x": 0.6759384274482727,
+                "hip_y": 0.5521675646305084,
+                "hip_vertical_velocity": -0.002111224926718353,
+                "left_arm_valid": true,
+                "left_elbow_angle": 91.40651624070168,
+                "left_elbow_position": "Slightly Bent",
+                "right_arm_valid": false,
+                "right_elbow_angle": null,
+                "right_elbow_position": null,
+                "left_leg_tracking_valid": true,
+                "right_leg_tracking_valid": false,
+                "left_knee_angle": 103.69111337599088,
+                "right_knee_angle": null,
+                "left_hip_angle": 116.82133171008309,
+                "right_hip_angle": null,
+                "left_foot_dx": -0.1797308623790741,
+                "left_foot_dy": 0.039040833711624146,
+                "right_foot_dx": null,
+                "right_foot_dy": null,
+                "left_foot_vx": -0.08703890920387931,
+                "left_foot_vy": 0.0675127578511847,
+                "right_foot_vx": null,
+                "right_foot_vy": null,
+                "left_foot_speed": 0.11015327588444135,
+                "right_foot_speed": null
+            },
+            "gemini": {
+                "frame": 697,
+                "foot_position": "Placed high to the right at roughly hip/lower-rib level, with the heel hooked over the top of a prominent hold.",
+                "foothold_contact": "yes",
+                "body_position": "Hips are pulled in closer to the wall and shifted toward image-right, supported by the high heel placement.",
+                "arm_position": "Left elbow is visibly more flexed as the torso is drawn closer to the handhold; right arm remains tucked and occluded.",
+                "uncertainties": [
+                    "Precise right arm and shoulder joint angles due to occlusion by the upper body."
+                ]
+            }
+        }
+    ],
+    "gemini_movement_summary": "Across the sequence, the climber releases their right foot from a lower foothold (frame 664 to 668) and raises it to establish a high heel hook on a hold to the right (frame 697). As the right heel engages, the right knee flexes deeply, the hips shift toward image-right closer to the wall, and the left elbow undergoes flexion to bring the upper body upward and inward.",
+    "gemini_movement_interpretation": "The sequence shows a climber readjusting their right foot from a low position to a high heel hook to secure tension, bring their center of mass closer to the overhanging wall, and stabilize before the next reach.",
+    "gemini_uncertainties": [
+        "Right arm joint angles and right hand contact are largely occluded by the torso across all frames.",
+        "The degree of active weight loading on holds cannot be measured directly from imagery."
+    ],
+    "gemini_hip_horizontal_direction": "image-right",
+    "gemini_target_knee_movement": "flexion",
+    "gemini_left_elbow_movement": "flexion",
+    "gemini_right_elbow_movement": "unclear"
+}

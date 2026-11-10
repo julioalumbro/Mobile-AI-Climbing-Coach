@@ -1,0 +1,98 @@
+[
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 0.8,
+        "end_seconds": 2.6,
+        "observation": "The climber reaches up with the left hand from the lower hold to grasp a blue hold on the overhanging wall.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "supported",
+                "message": "Left elbow angle: mean=170.69, min=164.57, max=177.78 (coverage=52.7%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 2.7,
+        "end_seconds": 4.6,
+        "observation": "The climber drops and sets the left foot onto the yellow hold below to establish better tension.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "limited",
+                "message": "Left foot speed had limited tracking coverage (12.1%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 4.8,
+        "end_seconds": 7.4,
+        "observation": "The climber releases the lower circular blue volume with the right hand and reaches up to take the blue hold next to the left hand.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "right_elbow",
+                "status": "supported",
+                "message": "Right elbow angle: mean=139.9, min=92.71, max=169.12 (coverage=98.7%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 7.3,
+        "end_seconds": 9.2,
+        "observation": "The climber raises the right foot higher, placing it onto the inner edge of the blue volume.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.203, min=0.008, max=1.087 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 8.8,
+        "end_seconds": 11.2,
+        "observation": "The climber pulls up and extends the left hand to latch onto the next blue hold higher up on the wall.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "insufficient",
+                "message": "No valid Left elbow angle measurements were available."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 11.2,
+        "end_seconds": 13.0,
+        "observation": "The climber brings the right hand up toward the higher blue hold to match.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "right_elbow",
+                "status": "supported",
+                "message": "Right elbow angle: mean=117.02, min=30.68, max=172.97 (coverage=69.1%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    }
+]

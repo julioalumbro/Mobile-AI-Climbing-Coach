@@ -1,0 +1,22 @@
+{
+  "fingerprint": "0e006d59250330ef05276e3b7b6031ca8a028d3c74c4186bd4bcaaf5aa1b5225",
+  "coaching": {
+    "overall_assessment": "Analysis of the 31.35-second recording shows distinct kinematic phases characterized by varied joint engagement. The climber displays significant left-arm isometric engagement midway through the climb (including a 2.07-second deep bend around 16.22s\u201318.29s), followed by a sequence of rapid, brief right-arm deep bends clustered between 23.79s and 30.93s. Lower-body metrics reflect notable knee flexion at several intervals, pointing to high foot placements or compressed positions.",
+    "strengths": [
+      "Demonstrated isometric holding capacity on the left upper body, sustaining a deep bend interval for 2.07 seconds (16.22s\u201318.29s) while maintaining an extended right arm (177.67\u00b0 at 17.25s).",
+      "Efficient, brief pulling cycles on the right arm in the latter portion of the climb (23.79s\u201330.93s), averaging 0.21 seconds per deep bend, indicating that pulling motions were dynamic rather than over-held.",
+      "Effective lower-body compression observed at multiple points (e.g., left knee at 41.98\u00b0 at 26.66s; right knee at 48.20\u00b0 at 17.25s and 41.89\u00b0 at 18.82s), indicating active use of high foot placements to distribute load."
+    ],
+    "improvements": [
+      "Address vertical momentum consistency: Hip vertical velocity shows notable negative dips (e.g., -0.085 at 10.98s and -0.058 at 1.57s) interspersed with modest upward peaks. Focusing on continuous, leg-driven upward momentum could reduce pauses and downward sag.",
+      "Minimize static lock-off duration: The 2.07-second left arm deep bend ended in an 'interrupted' status at 18.29s. If this was caused by searching for a hold or repositioning, using dynamic hip commitment and precise foot placement beforehand can reduce prolonged muscular strain on the upper body.",
+      "Reduce rapid readjustments: The right arm experienced seven distinct deep bend bursts between 23.79s and 30.93s, several lasting under 0.10 seconds. This pattern may reflect hold repositioning or instability. Aim for decisive, first-contact hand placements to conserve energy."
+    ],
+    "limitations": [
+      "Frequent missing landmark tracking points: Several samples contain null values for elbow and knee angles (e.g., right elbow between 6.27s and 15.68s, left elbow between 18.82s and 21.96s), limiting complete continuity of joint trajectories.",
+      "Absence of route context: The data does not include wall angle, hold size, hold orientation, or route grade, all of which directly influence whether deep arm bends and low hip velocities represent tactical necessity or technical inefficiency.",
+      "2D perspective distortion: Joint angles derived from monocular pose estimation can be affected by parallax and out-of-plane body rotation relative to the camera.",
+      "Uncalibrated velocity metrics: Hip vertical velocity values are unscaled relative to real-world metric dimensions (meters per second) and wall coordinates."
+    ]
+  }
+}

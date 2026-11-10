@@ -1,0 +1,101 @@
+{
+    "schema_version": 2,
+    "movement_type": "heel_hook_readjustment",
+    "video_file": "climbingTestTension.mov",
+    "analyzed_frames": [
+        664,
+        668,
+        697
+    ],
+    "evaluations": [
+        {
+            "claim": "Right knee angle change",
+            "status": "insufficient_evidence",
+            "reason": "Leg tracking is invalid."
+        },
+        {
+            "claim": "Horizontal hip movement",
+            "status": "measured",
+            "first_frame": 664,
+            "last_frame": 697,
+            "first_hip_x": 0.662,
+            "last_hip_x": 0.6759,
+            "horizontal_displacement": 0.014,
+            "direction": "minimal_horizontal_change"
+        },
+        {
+            "claim": "Left elbow angle change",
+            "status": "measured",
+            "first_frame": 664,
+            "last_frame": 697,
+            "first_angle": 106.89,
+            "last_angle": 91.41,
+            "angle_change_degrees": -15.48,
+            "movement": "flexion"
+        },
+        {
+            "claim": "Right elbow angle change",
+            "status": "insufficient_evidence",
+            "reason": "Arm tracking is invalid."
+        }
+    ],
+    "visual_observations": [
+        {
+            "frame": 664,
+            "claim": "Target foot foothold contact",
+            "observed_value": "yes",
+            "foot_position": "Positioned below and to the right of the pelvis, with the sole/heel placed near a lower foothold on the overhanging wall.",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        },
+        {
+            "frame": 668,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Lifted off the lower foothold and moving upward and rightward in the air, with the knee bent.",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        },
+        {
+            "frame": 697,
+            "claim": "Target foot foothold contact",
+            "observed_value": "yes",
+            "foot_position": "Placed high to the right at roughly hip/lower-rib level, with the heel hooked over the top of a prominent hold.",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        }
+    ],
+    "reconciliations": [
+        {
+            "claim": "Hip movement direction",
+            "status": "contradicted",
+            "gemini_direction": "image-right",
+            "mediapipe_direction": "minimal_horizontal_change",
+            "horizontal_displacement": 0.014,
+            "reason": "Sources report different directions."
+        },
+        {
+            "claim": "Right knee movement",
+            "status": "insufficient_evidence",
+            "reason": "MediaPipe knee measurement unavailable."
+        },
+        {
+            "claim": "Left elbow movement",
+            "status": "supported",
+            "gemini_movement": "flexion",
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -15.48,
+            "reason": "Both sources report the same elbow movement."
+        },
+        {
+            "claim": "Right elbow movement",
+            "status": "insufficient_evidence",
+            "reason": "MediaPipe elbow measurement unavailable."
+        }
+    ],
+    "gemini_movement_interpretation": "The sequence shows a climber readjusting their right foot from a low position to a high heel hook to secure tension, bring their center of mass closer to the overhanging wall, and stabilize before the next reach.",
+    "gemini_uncertainties": [
+        "Right arm joint angles and right hand contact are largely occluded by the torso across all frames.",
+        "The degree of active weight loading on holds cannot be measured directly from imagery."
+    ]
+}

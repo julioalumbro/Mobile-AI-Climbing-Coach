@@ -1,0 +1,135 @@
+[
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 3.0,
+        "end_seconds": 5.5,
+        "observation": "Climber moves left hand upward to establish a grip on a higher hold.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "supported",
+                "message": "Left elbow angle: mean=125.9, min=95.52, max=157.52 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 5.5,
+        "end_seconds": 8.0,
+        "observation": "Climber brings the left foot up onto a higher foothold.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.286, min=0.009, max=1.633 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 8.0,
+        "end_seconds": 10.5,
+        "observation": "Left hand reaches further up to grab a hold higher on the board.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "supported",
+                "message": "Left elbow angle: mean=143.93, min=63.49, max=169.13 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 10.5,
+        "end_seconds": 13.0,
+        "observation": "Right foot steps out wide to a foothold near the right side of the board.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "right_foot_speed",
+                "status": "limited",
+                "message": "Right foot speed had limited tracking coverage (40.0%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 14.5,
+        "end_seconds": 18.0,
+        "observation": "Climber extends and reaches the right hand up to a high hold.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "right_elbow",
+                "status": "limited",
+                "message": "Right elbow angle had limited tracking coverage (37.1%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 18.5,
+        "end_seconds": 21.0,
+        "observation": "Climber readjusts feet into a more centered, stable position underneath the body.",
+        "gemini_confidence": "medium",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.268, min=0.008, max=1.385 (coverage=100.0%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.248, min=0.005, max=0.724 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 21.5,
+        "end_seconds": 24.5,
+        "observation": "Climber pulls up powerfully and moves the left hand to a high hold near the top.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "limited",
+                "message": "Left elbow angle had limited tracking coverage (41.1%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 24.5,
+        "end_seconds": 27.5,
+        "observation": "Climber steps the left foot onto a higher foothold to stabilize the high position.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.282, min=0.038, max=1.081 (coverage=66.7%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    }
+]

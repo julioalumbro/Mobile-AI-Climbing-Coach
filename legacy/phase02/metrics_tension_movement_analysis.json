@@ -1,0 +1,108 @@
+{
+    "source_video_metrics": "metrics_tension.json",
+    "total_movement_cycles": 1,
+    "movement_analyses": [
+        {
+            "foot": "right",
+            "first_event": {
+                "start_frame": 664,
+                "end_frame": 673
+            },
+            "second_event": {
+                "start_frame": 682,
+                "end_frame": 682
+            },
+            "foot_stability": {
+                "pre_event_speed": {
+                    "average_speed": 0.7718876181714106,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "between_event_speed": {
+                    "average_speed": 0.38332393075951693,
+                    "valid_frames": 8,
+                    "total_frames": 8,
+                    "tracking_coverage": 100.0
+                },
+                "post_event_speed": {
+                    "average_speed": 0.5333287737821045,
+                    "valid_frames": 1,
+                    "total_frames": 10,
+                    "tracking_coverage": 10.0
+                }
+            },
+            "elbow_positioning": {
+                "left": {
+                    "before": {
+                        "average_angle": 119.24931336122276,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    },
+                    "during": {
+                        "average_angle": 101.76862602482007,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    },
+                    "after": {
+                        "average_angle": 92.85743136217982,
+                        "valid_frames": 10,
+                        "total_frames": 10,
+                        "tracking_coverage": 100.0
+                    }
+                },
+                "right": {
+                    "before": {
+                        "average_angle": null,
+                        "valid_frames": 0,
+                        "total_frames": 10,
+                        "tracking_coverage": 0.0
+                    },
+                    "during": {
+                        "average_angle": null,
+                        "valid_frames": 0,
+                        "total_frames": 10,
+                        "tracking_coverage": 0.0
+                    },
+                    "after": {
+                        "average_angle": null,
+                        "valid_frames": 0,
+                        "total_frames": 10,
+                        "tracking_coverage": 0.0
+                    }
+                }
+            },
+            "elbow_changes": {
+                "left": {
+                    "before_to_during": -17.480687336402696,
+                    "during_to_after": -8.911194662640241,
+                    "overall_change": -26.391881999042937
+                },
+                "right": null
+            },
+            "hip_movement": {
+                "before": {
+                    "average_velocity": -0.07249378403827171,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "during": {
+                    "average_velocity": -0.07027271111409703,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                },
+                "after": {
+                    "average_velocity": -0.050719231723012195,
+                    "valid_frames": 10,
+                    "total_frames": 10,
+                    "tracking_coverage": 100.0
+                }
+            },
+            "verified_movement_type": "heel_hook_readjustment"
+        }
+    ]
+}

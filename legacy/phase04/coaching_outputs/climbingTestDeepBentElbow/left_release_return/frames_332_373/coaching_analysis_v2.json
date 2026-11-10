@@ -1,0 +1,19 @@
+{
+  "movement_summary": "During the left_release_return movement, the climber exhibited hip movement toward the image-right accompanied by substantial left knee flexion and left elbow flexion.",
+  "recommendations": [
+    {
+      "observation": "The climber engaged in pronounced left elbow flexion (decreasing angle by 34.5 degrees) and left knee flexion (decreasing angle by 53.9 degrees) while displacing the hips to the image-right.",
+      "suggested_adjustment": "Test whether keeping the left elbow slightly more extended during the release and return alters fatigue or balance. In a controlled repetition, compare initiating the movement with an extended versus deeply flexed left arm to assess whether high flexion is structurally necessary to support the image-right hip displacement or if it represents excess upper body pull.",
+      "supporting_evidence": [
+        "Left elbow movement",
+        "Left knee movement",
+        "Hip movement direction"
+      ],
+      "uncertainty": "Without confirmed hold geometry, hold quality, or clear right arm kinematics, it is uncertain whether high left elbow flexion is a necessary active pull to maintain balance or an inefficient tension pattern."
+    }
+  ],
+  "needs_review": [
+    "Right elbow movement: Gemini reported extension while MediaPipe reported flexion (-53.59 degrees)."
+  ],
+  "overall_confidence": "medium"
+}

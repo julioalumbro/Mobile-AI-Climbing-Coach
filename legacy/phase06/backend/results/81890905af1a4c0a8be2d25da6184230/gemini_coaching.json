@@ -1,0 +1,21 @@
+{
+  "fingerprint": "0e006d59250330ef05276e3b7b6031ca8a028d3c74c4186bd4bcaaf5aa1b5225",
+  "coaching": {
+    "overall_assessment": "The 31.35-second sequence captures a climb characterized by distinct mechanical phases: an initial phase relying on extended arm positions with deep knee flexion, a mid-climb static lock-off on the left arm (duration 2.07s, elbow angle reaching 29.4\u00b0 at 17.25s), and a final phase (23.8s to 30.9s) featuring frequent, rapid flexions of the right arm. Vertical hip velocity remains relatively modest throughout, showing controlled upward pulses punctuated by brief negative dips.",
+    "strengths": [
+      "Energy conservation through extended arm positions: The right arm maintained an extended posture (angles between 150.3\u00b0 and 177.7\u00b0) for the first 22 seconds, which typically reduces premature forearm fatigue.",
+      "Lock-off capacity: The left arm demonstrated the ability to hold a sustained deep bend of 2.07 seconds between 16.22s and 18.29s, accompanied by deep right knee flexion (41.9\u00b0\u201348.2\u00b0), indicating stable body tension during reaches.",
+      "Lower-body loading: Repeated deep knee flexion values (e.g., left knee at 54.3\u00b0 at 9.41s and 42.0\u00b0 at 26.66s; right knee at 41.9\u00b0 at 18.82s) indicate active utilization of high footholds rather than pulling solely through the arms."
+    ],
+    "improvements": [
+      "Address right-arm readjustment or hesitation: Between 25.39s and 30.93s, the right arm exhibited five short bend intervals (durations between 0.03s and 0.40s, several flagged as interrupted). This pattern may reflect hand readjustments or difficulty latching holds cleanly; practicing deliberate, single-contact hand placements could improve efficiency.",
+      "Maintain core tension through transitions: Hip vertical velocity dipped significantly at 10.98s (-0.085) and 1.57s (-0.058). Focusing on core rigidity and active toe tension during weight shifts can minimize unwanted downward hip sag.",
+      "Balance upper-limb load distribution: The left arm sustained a total deep bend time of 3.15s with an average duration of 0.63s, whereas the right arm averaged only 0.21s per bend. Evaluate whether route beta or movement habits are placing disproportionate lock-off demands on the left side."
+    ],
+    "limitations": [
+      "Frequent tracking occlusions: Multiple movement samples contain null values for knee and elbow angles (e.g., right elbow missing from 6.27s through 15.68s), preventing a complete continuous analysis of both limbs.",
+      "Absence of route and wall context: The data does not provide wall angle (slab, vertical, or overhang), hold size, or grip type, all of which heavily dictate whether deep arm bends and velocity changes are optimal.",
+      "Planar tracking constraints: MediaPipe calculates angles from 2D or inferred 3D projections, meaning out-of-plane rotations (such as drop knees or back-steps) may distort measured joint angles and hip velocities."
+    ]
+  }
+}

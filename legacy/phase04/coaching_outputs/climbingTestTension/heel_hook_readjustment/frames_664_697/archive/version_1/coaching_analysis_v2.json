@@ -1,0 +1,19 @@
+{
+  "movement_summary": "During the heel hook readjustment, the climber exhibited verified left elbow flexion of approximately 15.5 degrees, while horizontal hip displacement remains unresolved and right-side joint tracking data is unavailable.",
+  "recommendations": [
+    {
+      "observation": "Active flexion of approximately 15.5 degrees occurred in the left elbow during the heel hook readjustment.",
+      "suggested_adjustment": "Treat arm engagement as an experiment: try one attempt where you consciously minimize pulling through the left elbow during the heel repositioning, relying more on contact tension, and compare whether this reduces upper-body fatigue without compromising heel security.",
+      "supporting_evidence": [
+        "Left elbow movement"
+      ],
+      "uncertainty": "Because right-side tracking and hip displacement are unverified or contradictory, it is unclear whether bending the left elbow was functionally required to unweight or stabilize the heel."
+    }
+  ],
+  "needs_review": [
+    "Hip movement direction: Disagreement between visual observation (image-right) and pose tracking (minimal horizontal displacement).",
+    "Right knee movement: Independent pose tracking measurement was unavailable to evaluate leg engagement.",
+    "Right elbow movement: Independent pose tracking measurement was unavailable."
+  ],
+  "overall_confidence": "low"
+}

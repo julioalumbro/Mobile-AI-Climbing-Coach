@@ -1,0 +1,61 @@
+{
+    "video_file": "climbingTestDeepBentElbow.mov",
+    "movement_type": "left_release_return",
+    "analyzed_frames": [
+        332,
+        358,
+        373
+    ],
+    "model": "gemini-3.8-flash",
+    "analysis_type": "multi_frame",
+    "timestamp_utc": "2026-10-29T05:14:51.194309+00:00",
+    "finish_reason": "STOP",
+    "token_usage": {
+        "prompt_tokens": 3474,
+        "reasoning_tokens": 1329,
+        "response_tokens": 563,
+        "total_tokens": 5366
+    },
+    "analysis": {
+        "movement_type": "left_release_return",
+        "target_foot": "left",
+        "frames": [
+            {
+                "frame": 332,
+                "foot_position": "Extended diagonally downward and outward to the left of the hips in a wide stance",
+                "foothold_contact": "no",
+                "body_position": "Torso facing the wall, hips squared and centered below the handholds",
+                "arm_position": "Both arms extended overhead gripping holds, elbows slightly bent",
+                "uncertainties": [
+                    "Whether the left foot is touching the wall surface for flagging balance"
+                ]
+            },
+            {
+                "frame": 358,
+                "foot_position": "Drawn inward beneath the hips with the left knee flexed",
+                "foothold_contact": "no",
+                "body_position": "Hips shifted slightly rightward and away from the wall with lower body swinging outward",
+                "arm_position": "Both arms engaged overhead holding onto handholds, left elbow bent",
+                "uncertainties": [
+                    "Exact clearance distance between the left foot and the wall surface"
+                ]
+            },
+            {
+                "frame": 373,
+                "foot_position": "Bent significantly at the knee with the lower leg tucked horizontally beneath the hips",
+                "foothold_contact": "no",
+                "body_position": "Hips and torso swung rightward following the dynamic swing of the lower body",
+                "arm_position": "Both arms extended and bent, sustaining body weight on the handholds through the swing",
+                "uncertainties": [
+                    "Whether the climber is preparing to place the left foot onto a specific foothold"
+                ]
+            }
+        ],
+        "movement_summary": "Between frames 332 and 373, the climber's left leg moves from a wide leftward extension into a flexed position tucked beneath the torso as the climber's hips swing dynamically toward the right. The hands remain fixed on the overhead holds throughout the sequence while both feet come off the wall.",
+        "movement_interpretation": "The sequence shows dynamic swing management or a foot cut, where the left foot leaves its wide flagging position and flexes inward to control momentum while the body swings rightward.",
+        "uncertainties": [
+            "Intended landing hold for the left foot after the swing momentum is controlled",
+            "Precise weight distribution on the handholds throughout the dynamic swing"
+        ]
+    }
+}

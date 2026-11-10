@@ -1,0 +1,148 @@
+{
+    "schema_version": 2,
+    "video_file": "climbingTestDeepBentElbow.mov",
+    "movement_type": "left_release_return",
+    "target_foot": "left",
+    "frame_count": 3,
+    "frames": [
+        {
+            "frame": 332,
+            "timestamp_seconds": 5.678100775193799,
+            "mediapipe": {
+                "frame": 332,
+                "timestamp_seconds": 5.678100775193799,
+                "hip_x": 0.4419310986995697,
+                "hip_y": 0.6479279696941376,
+                "hip_vertical_velocity": 0.022701933431220095,
+                "left_arm_valid": true,
+                "left_elbow_angle": 106.58370233132035,
+                "left_elbow_position": "Slightly Bent",
+                "right_arm_valid": true,
+                "right_elbow_angle": 122.78766607121364,
+                "right_elbow_position": "Slightly Bent",
+                "left_leg_tracking_valid": true,
+                "right_leg_tracking_valid": true,
+                "left_knee_angle": 159.48539250941243,
+                "right_knee_angle": 148.68024172130782,
+                "left_hip_angle": 129.93619613458787,
+                "right_hip_angle": 127.8432073194646,
+                "left_foot_dx": -0.2502325773239136,
+                "left_foot_dy": 0.18337860703468323,
+                "right_foot_dx": 0.07627645134925842,
+                "right_foot_dy": 0.22039905190467834,
+                "left_foot_vx": -0.8496365871375401,
+                "left_foot_vy": 0.0917870464811243,
+                "right_foot_vx": -0.4356965937627944,
+                "right_foot_vy": 0.2070775991121025,
+                "left_foot_speed": 0.8545801262049422,
+                "right_foot_speed": 0.4824029994418921
+            },
+            "gemini": {
+                "frame": 332,
+                "foot_position": "Extended diagonally downward and to the image-left of the hips.",
+                "foothold_contact": "no",
+                "body_position": "Torso is upright and facing the wall with hips centered beneath the chest.",
+                "arm_position": "Both arms are elevated, with both hands grasping pink holds and elbows moderately bent.",
+                "uncertainties": [
+                    "Whether the target foot is smearing against the wall surface or entirely suspended in the air."
+                ]
+            }
+        },
+        {
+            "frame": 358,
+            "timestamp_seconds": 6.122771317829457,
+            "mediapipe": {
+                "frame": 358,
+                "timestamp_seconds": 6.122771317829457,
+                "hip_x": 0.5469992160797119,
+                "hip_y": 0.6460622847080231,
+                "hip_vertical_velocity": -0.11461444346830447,
+                "left_arm_valid": true,
+                "left_elbow_angle": 92.60918416820402,
+                "left_elbow_position": "Slightly Bent",
+                "right_arm_valid": true,
+                "right_elbow_angle": 71.84814778245757,
+                "right_elbow_position": "Deeply Bent",
+                "left_leg_tracking_valid": true,
+                "right_leg_tracking_valid": true,
+                "left_knee_angle": 128.52625667522037,
+                "right_knee_angle": 161.60644864828387,
+                "left_hip_angle": 139.92196300618403,
+                "right_hip_angle": 113.52417602189612,
+                "left_foot_dx": -0.036719441413879395,
+                "left_foot_dy": 0.2197141945362091,
+                "right_foot_dx": 0.2503284811973572,
+                "right_foot_dy": 0.1510109007358551,
+                "left_foot_vx": 1.85407603428654,
+                "left_foot_vy": -0.02173307597130619,
+                "right_foot_vx": 2.1017968553321533,
+                "right_foot_vy": -1.4212197960267308,
+                "left_foot_speed": 1.854203405106052,
+                "right_foot_speed": 2.537206284420404
+            },
+            "gemini": {
+                "frame": 358,
+                "foot_position": "Suspended beneath the hips with the knee flexed and foot trailing toward image-right.",
+                "foothold_contact": "no",
+                "body_position": "Hips and torso have shifted toward image-right in a swing, facing into the wall.",
+                "arm_position": "Both hands maintain grip on the pink holds; the left elbow is flexed while the right arm begins extending.",
+                "uncertainties": [
+                    "Exact clearance between the left shoe and the wall surface."
+                ]
+            }
+        },
+        {
+            "frame": 373,
+            "timestamp_seconds": 6.379312015503876,
+            "mediapipe": {
+                "frame": 373,
+                "timestamp_seconds": 6.379312015503876,
+                "hip_x": 0.5438865721225739,
+                "hip_y": 0.624944657087326,
+                "hip_vertical_velocity": -0.034164423307683545,
+                "left_arm_valid": true,
+                "left_elbow_angle": 72.05788988299612,
+                "left_elbow_position": "Deeply Bent",
+                "right_arm_valid": true,
+                "right_elbow_angle": 69.20008405726122,
+                "right_elbow_position": "Deeply Bent",
+                "left_leg_tracking_valid": true,
+                "right_leg_tracking_valid": true,
+                "left_knee_angle": 105.62893751880517,
+                "right_knee_angle": 173.17761277170848,
+                "left_hip_angle": 163.16674351892408,
+                "right_hip_angle": 112.97226272193981,
+                "left_foot_dx": 0.1879807412624359,
+                "left_foot_dy": 0.13238951563835144,
+                "right_foot_dx": 0.3980894386768341,
+                "right_foot_dy": 0.08033302426338196,
+                "left_foot_vx": 0.4537999393582001,
+                "left_foot_vy": -0.624257863074456,
+                "right_foot_vx": -0.600644576313137,
+                "right_foot_vy": 0.20664196176501892,
+                "left_foot_speed": 0.771772158458565,
+                "right_foot_speed": 0.6351966682976882
+            },
+            "gemini": {
+                "frame": 373,
+                "foot_position": "Hanging below and slightly behind the hips with the knee bent at approximately a right angle.",
+                "foothold_contact": "no",
+                "body_position": "Hips and torso are shifted to the image-right relative to the initial frame, angled slightly clockwise.",
+                "arm_position": "Left elbow is deeply flexed as the climber holds the left handhold; right elbow is more extended toward the right hold.",
+                "uncertainties": [
+                    "Exact depth/distance of the target foot from the wall plane."
+                ]
+            }
+        }
+    ],
+    "gemini_movement_summary": "Across the sequence, the climber's anatomical left foot moves from an extended position on the image-left to a flexed, suspended position beneath and to the right of its initial location. The hips swing toward image-right, causing the left elbow to undergo flexion while the right elbow extends.",
+    "gemini_movement_interpretation": "The sequence shows a dynamic cut-loose or swing of the lower body toward the image-right while maintaining two-hand contact on the upper holds.",
+    "gemini_uncertainties": [
+        "Whether the left foot had previous hold contact immediately prior to frame 332.",
+        "Exact planar depth of the feet relative to the climbing wall surface."
+    ],
+    "gemini_hip_horizontal_direction": "image-right",
+    "gemini_target_knee_movement": "flexion",
+    "gemini_left_elbow_movement": "flexion",
+    "gemini_right_elbow_movement": "extension"
+}

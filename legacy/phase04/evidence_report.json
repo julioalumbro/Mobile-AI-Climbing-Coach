@@ -1,0 +1,116 @@
+{
+    "movement_type": "left_release_return",
+    "video_file": "climbingTestDeepBentElbow.mov",
+    "analyzed_frames": [
+        332,
+        358,
+        373
+    ],
+    "evaluations": [
+        {
+            "claim": "Left knee angle change",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_angle": 159.49,
+            "last_angle": 105.63,
+            "angle_change_degrees": -53.86,
+            "movement": "flexion"
+        },
+        {
+            "claim": "Horizontal hip movement",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_hip_x": 0.4419,
+            "last_hip_x": 0.5439,
+            "horizontal_displacement": 0.102,
+            "direction": "image-right"
+        },
+        {
+            "claim": "Left elbow angle change",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_angle": 106.58,
+            "last_angle": 72.06,
+            "angle_change_degrees": -34.53,
+            "movement": "flexion"
+        },
+        {
+            "claim": "Right elbow angle change",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_angle": 122.79,
+            "last_angle": 69.2,
+            "angle_change_degrees": -53.59,
+            "movement": "flexion"
+        }
+    ],
+    "visual_observations": [
+        {
+            "frame": 332,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Extended diagonally downward and outward to the left of the hips in a wide stance",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        },
+        {
+            "frame": 358,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Drawn inward beneath the hips with the left knee flexed",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        },
+        {
+            "frame": 373,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Bent significantly at the knee with the lower leg tucked horizontally beneath the hips",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        }
+    ],
+    "reconciliations": [
+        {
+            "claim": "Hip movement direction",
+            "status": "inconclusive",
+            "gemini_direction": null,
+            "mediapipe_direction": "image-right",
+            "horizontal_displacement": 0.102,
+            "reason": "Structured Gemini direction unavailable."
+        },
+        {
+            "claim": "Left knee movement",
+            "status": "inconclusive",
+            "gemini_movement": null,
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -53.86,
+            "reason": "Structured Gemini knee movement unavailable."
+        },
+        {
+            "claim": "Left elbow movement",
+            "status": "inconclusive",
+            "gemini_movement": null,
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -34.53,
+            "reason": "Structured Gemini elbow movement unavailable."
+        },
+        {
+            "claim": "Right elbow movement",
+            "status": "inconclusive",
+            "gemini_movement": null,
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -53.59,
+            "reason": "Structured Gemini elbow movement unavailable."
+        }
+    ],
+    "gemini_movement_interpretation": "The sequence shows dynamic swing management or a foot cut, where the left foot leaves its wide flagging position and flexes inward to control momentum while the body swings rightward.",
+    "gemini_uncertainties": [
+        "Intended landing hold for the left foot after the swing momentum is controlled",
+        "Precise weight distribution on the handholds throughout the dynamic swing"
+    ]
+}

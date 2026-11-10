@@ -1,0 +1,66 @@
+{
+    "video_file": "climbingTestDeepBentElbow.mov",
+    "movement_type": "left_release_return",
+    "analyzed_frames": [
+        332,
+        358,
+        373
+    ],
+    "model": "gemini-3.8-flash",
+    "analysis_type": "multi_frame",
+    "schema_version": 2,
+    "timestamp_utc": "2026-11-01T21:29:48.830414+00:00",
+    "finish_reason": "STOP",
+    "token_usage": {
+        "prompt_tokens": 3779,
+        "reasoning_tokens": 3313,
+        "response_tokens": 651,
+        "total_tokens": 7743
+    },
+    "analysis": {
+        "movement_type": "left_release_return",
+        "target_foot": "left",
+        "frames": [
+            {
+                "frame": 332,
+                "foot_position": "Extended laterally down and to image-left relative to the hips, suspended off the wall surface.",
+                "foothold_contact": "no",
+                "body_position": "Torso is oriented facing the wall, centered between the two handholds with hips roughly level.",
+                "arm_position": "Both arms are overhead in flexion holding pink holds, with elbows bent at acute angles.",
+                "uncertainties": [
+                    "Whether the left foot recently released from a hold or was flagging."
+                ]
+            },
+            {
+                "frame": 358,
+                "foot_position": "Dangling below the hips with the knee flexed, hanging freely in the air.",
+                "foothold_contact": "no",
+                "body_position": "Torso and hips have swung toward image-right, with the hips rotated slightly rightward.",
+                "arm_position": "Both hands maintain grip on the overhead pink holds; both elbows remain bent holding body tension.",
+                "uncertainties": [
+                    "Exact depth distance of the left foot from the wall plane."
+                ]
+            },
+            {
+                "frame": 373,
+                "foot_position": "Positioned below and behind the hips with the knee bent at approximately a right angle, suspended in the air.",
+                "foothold_contact": "no",
+                "body_position": "Hips and torso remain displaced toward image-right following the dynamic swing.",
+                "arm_position": "Both hands continue gripping the overhead pink holds with elbows bent in strong flexion.",
+                "uncertainties": [
+                    "Intended landing target or return hold for the left foot."
+                ]
+            }
+        ],
+        "movement_summary": "Between frames 332 and 373, both hands remain fixed on the overhead holds while the climber's lower body cuts loose and swings. The hips shift horizontally toward image-right, and the anatomical left leg transitions from an extended position out to the side into a flexed knee position hanging below the hips. Neither foot makes foothold contact throughout the sequence.",
+        "movement_interpretation": "The sequence depicts a dynamic cut-loose and swing following a release of the feet, with the climber controlling momentum using upper body tension on the dual handholds.",
+        "uncertainties": [
+            "Whether the movement was an intentional cut-loose swing or an accidental foot slip.",
+            "Exact distance between feet and the wall."
+        ],
+        "hip_horizontal_direction": "image-right",
+        "target_knee_movement": "flexion",
+        "left_elbow_movement": "minimal_angle_change",
+        "right_elbow_movement": "minimal_angle_change"
+    }
+}

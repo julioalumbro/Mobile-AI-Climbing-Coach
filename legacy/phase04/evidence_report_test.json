@@ -1,0 +1,117 @@
+{
+    "schema_version": 2,
+    "movement_type": "left_release_return",
+    "video_file": "climbingTestDeepBentElbow.mov",
+    "analyzed_frames": [
+        332,
+        358,
+        373
+    ],
+    "evaluations": [
+        {
+            "claim": "Left knee angle change",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_angle": 159.49,
+            "last_angle": 105.63,
+            "angle_change_degrees": -53.86,
+            "movement": "flexion"
+        },
+        {
+            "claim": "Horizontal hip movement",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_hip_x": 0.4419,
+            "last_hip_x": 0.5439,
+            "horizontal_displacement": 0.102,
+            "direction": "image-right"
+        },
+        {
+            "claim": "Left elbow angle change",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_angle": 106.58,
+            "last_angle": 72.06,
+            "angle_change_degrees": -34.53,
+            "movement": "flexion"
+        },
+        {
+            "claim": "Right elbow angle change",
+            "status": "measured",
+            "first_frame": 332,
+            "last_frame": 373,
+            "first_angle": 122.79,
+            "last_angle": 69.2,
+            "angle_change_degrees": -53.59,
+            "movement": "flexion"
+        }
+    ],
+    "visual_observations": [
+        {
+            "frame": 332,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Extended diagonally downward and to the image-left of the hips.",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        },
+        {
+            "frame": 358,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Suspended beneath the hips with the knee flexed and foot trailing toward image-right.",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        },
+        {
+            "frame": 373,
+            "claim": "Target foot foothold contact",
+            "observed_value": "no",
+            "foot_position": "Hanging below and slightly behind the hips with the knee bent at approximately a right angle.",
+            "source": "gemini",
+            "status": "not_independently_verified"
+        }
+    ],
+    "reconciliations": [
+        {
+            "claim": "Hip movement direction",
+            "status": "supported",
+            "gemini_direction": "image-right",
+            "mediapipe_direction": "image-right",
+            "horizontal_displacement": 0.102,
+            "reason": "Both sources report the same direction."
+        },
+        {
+            "claim": "Left knee movement",
+            "status": "supported",
+            "gemini_movement": "flexion",
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -53.86,
+            "reason": "Both sources report the same knee movement."
+        },
+        {
+            "claim": "Left elbow movement",
+            "status": "supported",
+            "gemini_movement": "flexion",
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -34.53,
+            "reason": "Both sources report the same elbow movement."
+        },
+        {
+            "claim": "Right elbow movement",
+            "status": "contradicted",
+            "gemini_movement": "extension",
+            "mediapipe_movement": "flexion",
+            "angle_change_degrees": -53.59,
+            "reason": "Sources report different elbow movements."
+        }
+    ],
+    "gemini_movement_interpretation": "The sequence shows a dynamic cut-loose or swing of the lower body toward the image-right while maintaining two-hand contact on the upper holds.",
+    "gemini_uncertainties": [
+        "Whether the left foot had previous hold contact immediately prior to frame 332.",
+        "Exact planar depth of the feet relative to the climbing wall surface."
+    ]
+}

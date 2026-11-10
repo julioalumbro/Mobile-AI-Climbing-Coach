@@ -1,0 +1,144 @@
+[
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 0.5,
+        "end_seconds": 3.5,
+        "observation": "Climber repositions feet on the lower footholds to stabilize on the steep wall.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.134, min=0.002, max=0.693 (coverage=100.0%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.17, min=0.026, max=0.531 (coverage=52.2%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "high step",
+        "start_seconds": 4.5,
+        "end_seconds": 7.5,
+        "observation": "Climber raises the left foot onto a significantly higher foothold to prepare for an upward reach.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "hip_vertical_velocity",
+                "status": "supported",
+                "message": "Hip vertical velocity: mean=-0.008, min=-0.107, max=0.145 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 7.5,
+        "end_seconds": 10.0,
+        "observation": "Climber moves the right hand upward to a higher hold on the board.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "right_elbow",
+                "status": "supported",
+                "message": "Right elbow angle: mean=171.2, min=141.58, max=177.63 (coverage=53.3%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 10.0,
+        "end_seconds": 13.0,
+        "observation": "Climber extends the right foot out wide to track a foothold near the right perimeter.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.467, min=0.023, max=2.661 (coverage=50.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "hand movement",
+        "start_seconds": 13.5,
+        "end_seconds": 17.5,
+        "observation": "Climber reaches long with the left hand to an upper hold.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "supported",
+                "message": "Left elbow angle: mean=115.23, min=22.12, max=169.79 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "deadpoint",
+        "start_seconds": 20.0,
+        "end_seconds": 24.0,
+        "observation": "Climber drives dynamically through the hips and latches higher holds with both hands.",
+        "gemini_confidence": "high",
+        "evidence_status": "partially_supported",
+        "metric_evaluations": [
+            {
+                "metric": "hip_vertical_velocity",
+                "status": "supported",
+                "message": "Hip vertical velocity: mean=-0.016, min=-0.16, max=0.076 (coverage=100.0%)."
+            },
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.278, min=0.009, max=1.508 (coverage=100.0%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.33, min=0.031, max=1.731 (coverage=100.0%)."
+            },
+            {
+                "metric": "left_elbow",
+                "status": "limited",
+                "message": "Left elbow angle had limited tracking coverage (18.3%)."
+            },
+            {
+                "metric": "right_elbow",
+                "status": "supported",
+                "message": "Right elbow angle: mean=160.3, min=71.02, max=179.97 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "foot placement",
+        "start_seconds": 24.0,
+        "end_seconds": 28.0,
+        "observation": "Climber walks both feet up onto higher holds to secure balance at the top of the problem.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.384, min=0.025, max=1.787 (coverage=63.3%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.534, min=0.046, max=1.899 (coverage=61.7%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    }
+]

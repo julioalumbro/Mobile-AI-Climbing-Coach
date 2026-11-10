@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, sans-serif;
+  color: #e8edf6;
+  background: #090d15;
+  font-synthesis: none;
+  -webkit-tap-highlight-color: transparent;
+  color-scheme: dark;
+}
+html, body { background: #090d15; }
+body { margin: 0; min-width: 320px; overscroll-behavior-y: none; }
+button { cursor: pointer; }
+.panel { background: #121926; border: 1px solid #263246; border-radius: 18px; }

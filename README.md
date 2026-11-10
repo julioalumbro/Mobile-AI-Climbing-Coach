@@ -2,6 +2,26 @@
 
 An AI-powered climbing analysis application that combines computer vision, pose estimation, and Google's Gemini AI to analyze recorded bouldering footage, extract movement metrics, and generate personalized, evidence-aware coaching feedback.
 
+## Mobile beta (current layout)
+
+The app is now a mobile web app (PWA) for a private beta. The original
+phase-by-phase build lives in `legacy/`.
+
+```text
+AI-Climbing-Project/
+|-- server/     FastAPI + MediaPipe + Gemini API (deploys to Railway via Dockerfile)
+|-- mobile/     React + TypeScript PWA (deploys to Vercel)
+|-- legacy/     phase01-phase07: how the pipeline was built
+|-- DEPLOY.md   step-by-step: run locally, deploy, create invite codes
+```
+
+What changed from the phase06 web app:
+- Analysis runs as a background job; MediaPipe and Gemini run in parallel and the app shows each result as it finishes.
+- The skeleton is drawn by the app on top of the original video (no second annotated video).
+- Joint angles use MediaPipe world landmarks (3D). Testers enter the wall angle, which is used to report hip speed along the wall, to set the bent-arm thresholds and in both Gemini prompts.
+- Invite codes, a 1,000,000-token daily Gemini budget, per-tester daily limits, and a server-side 20-second video limit.
+- Fixed: frames where MediaPipe was skipped carried stale foot speeds into the coaching summary.
+
 ## Overview
 
 AI Climbing Coach is my personal project created to explore how artificial intelligence and computer vision can help climbers better understand their movement and technique.

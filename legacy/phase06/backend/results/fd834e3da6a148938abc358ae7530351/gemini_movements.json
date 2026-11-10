@@ -1,0 +1,86 @@
+{
+    "movements": [
+        {
+            "start_seconds": 1.0,
+            "end_seconds": 3.0,
+            "movement_type": "foot repositioning",
+            "body_parts": [
+                "right foot",
+                "legs"
+            ],
+            "observation": "Climber adjusts foot positioning, placing the right foot onto a hold to generate upward drive.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 3.0,
+            "end_seconds": 5.0,
+            "movement_type": "hand reach",
+            "body_parts": [
+                "left hand",
+                "left arm"
+            ],
+            "observation": "Climber reaches up with the left hand to grasp a hold centrally placed on the board.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 5.5,
+            "end_seconds": 8.0,
+            "movement_type": "high step",
+            "body_parts": [
+                "left foot",
+                "left leg",
+                "hips"
+            ],
+            "observation": "Climber brings the left foot high onto a hold on the left side and drives the hips closer to the board.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 8.5,
+            "end_seconds": 11.5,
+            "movement_type": "hand movement and foot placement",
+            "body_parts": [
+                "left hand",
+                "right foot",
+                "legs"
+            ],
+            "observation": "Climber bumps the left hand up to the next hold while extending the right foot wide to the right to maintain tension.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 15.0,
+            "end_seconds": 18.0,
+            "movement_type": "hand reach",
+            "body_parts": [
+                "left hand",
+                "left arm",
+                "core"
+            ],
+            "observation": "Climber extends the left hand high to latch onto an upper hold on the board.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 21.0,
+            "end_seconds": 24.0,
+            "movement_type": "dynamic reach",
+            "body_parts": [
+                "right hand",
+                "right arm",
+                "core"
+            ],
+            "observation": "Climber pulls dynamically and drives the right hand up to catch a high hold near the top.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 24.5,
+            "end_seconds": 28.0,
+            "movement_type": "foot repositioning",
+            "body_parts": [
+                "left foot",
+                "right foot",
+                "legs"
+            ],
+            "observation": "Climber moves both feet up to higher holds to establish stable body position at the top.",
+            "confidence": "high"
+        }
+    ]
+}

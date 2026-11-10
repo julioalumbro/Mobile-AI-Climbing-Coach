@@ -1,0 +1,66 @@
+{
+    "video_file": "climbingTestTension.mov",
+    "movement_type": "heel_hook_readjustment",
+    "analyzed_frames": [
+        664,
+        668,
+        697
+    ],
+    "model": "gemini-3.8-flash",
+    "analysis_type": "multi_frame",
+    "schema_version": 2,
+    "timestamp_utc": "2026-11-02T00:29:38.616483+00:00",
+    "finish_reason": "STOP",
+    "token_usage": {
+        "prompt_tokens": 3786,
+        "reasoning_tokens": 2421,
+        "response_tokens": 745,
+        "total_tokens": 6952
+    },
+    "analysis": {
+        "movement_type": "heel_hook_readjustment",
+        "target_foot": "right",
+        "frames": [
+            {
+                "frame": 664,
+                "foot_position": "Positioned below and to the right of the pelvis, with the sole/heel placed near a lower foothold on the overhanging wall.",
+                "foothold_contact": "yes",
+                "body_position": "Torso is angled toward the wall with hips open and facing inward toward the climbing surface.",
+                "arm_position": "Left arm is extended upward toward a handhold with moderate elbow extension; right arm is bent and largely occluded on the right side of the torso.",
+                "uncertainties": [
+                    "Exact point of contact and weight bearing on the right foothold due to slight motion blur."
+                ]
+            },
+            {
+                "frame": 668,
+                "foot_position": "Lifted off the lower foothold and moving upward and rightward in the air, with the knee bent.",
+                "foothold_contact": "no",
+                "body_position": "Hips and torso remain close to the wall, shifting slightly rightward as the right leg repositions.",
+                "arm_position": "Left arm maintains grip on the upper handhold; right arm remains flexed against a hold near the torso.",
+                "uncertainties": [
+                    "Exact right hand grip position and right elbow angle due to occlusion by the torso."
+                ]
+            },
+            {
+                "frame": 697,
+                "foot_position": "Placed high to the right at roughly hip/lower-rib level, with the heel hooked over the top of a prominent hold.",
+                "foothold_contact": "yes",
+                "body_position": "Hips are pulled in closer to the wall and shifted toward image-right, supported by the high heel placement.",
+                "arm_position": "Left elbow is visibly more flexed as the torso is drawn closer to the handhold; right arm remains tucked and occluded.",
+                "uncertainties": [
+                    "Precise right arm and shoulder joint angles due to occlusion by the upper body."
+                ]
+            }
+        ],
+        "movement_summary": "Across the sequence, the climber releases their right foot from a lower foothold (frame 664 to 668) and raises it to establish a high heel hook on a hold to the right (frame 697). As the right heel engages, the right knee flexes deeply, the hips shift toward image-right closer to the wall, and the left elbow undergoes flexion to bring the upper body upward and inward.",
+        "movement_interpretation": "The sequence shows a climber readjusting their right foot from a low position to a high heel hook to secure tension, bring their center of mass closer to the overhanging wall, and stabilize before the next reach.",
+        "uncertainties": [
+            "Right arm joint angles and right hand contact are largely occluded by the torso across all frames.",
+            "The degree of active weight loading on holds cannot be measured directly from imagery."
+        ],
+        "hip_horizontal_direction": "image-right",
+        "target_knee_movement": "flexion",
+        "left_elbow_movement": "flexion",
+        "right_elbow_movement": "unclear"
+    }
+}

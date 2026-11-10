@@ -1,0 +1,21 @@
+{
+  "fingerprint": "0e006d59250330ef05276e3b7b6031ca8a028d3c74c4186bd4bcaaf5aa1b5225",
+  "coaching": {
+    "overall_assessment": "The 31.4-second climb demonstrates a distinct shift in upper-body engagement: the left arm performs a prolonged deep bend (lock-off) around 16.2s to 18.3s, while the right arm engages in multiple short, intermittent deep bends between 23.8s and 31.0s. Lower-body data indicates active use of deep knee flexion (under 60 degrees) at several stages, contributing to upward vertical hip displacement at timestamps such as 9.41s and 29.80s.",
+    "strengths": [
+      "Demonstrated isometric pulling capability on the left side, sustaining a deep bend interval of 2.07 seconds (16.22s\u201318.29s) with an elbow angle reaching 29.40\u00b0 at 17.25s while the right arm remained extended at 177.67\u00b0.",
+      "Effective utilization of deep leg flexion to engage footholds, recorded at timestamps such as 3.14s (right knee 52.60\u00b0), 9.41s (left knee 54.29\u00b0), 17.25s (right knee 48.20\u00b0), and 26.66s (left knee 41.98\u00b0).",
+      "Generated positive hip vertical velocity during upward transition points, reaching peaks of +0.024 at 9.41s, +0.015 at 25.09s, and +0.044 at 29.80s."
+    ],
+    "improvements": [
+      "Address repeated short-duration right-arm contractions: The right arm recorded 7 distinct deep bend intervals between 23.79s and 30.93s (averaging only 0.21s each, with 3 marked as interrupted). If this reflects hesitation or micro-adjustments, practicing decisive single-motion movements could conserve forearm endurance.",
+      "Mitigate downward hip drops: Notable negative hip vertical velocities occurred at 1.57s (-0.058) and 10.98s (-0.085). Maintaining higher continuous core and toe tension during hand shifts may help prevent sag and reduce recovery strain on the arms.",
+      "Streamline transitions out of static lock-offs: The longest left-arm deep bend (2.07s) ended with an 'interrupted' status at 18.29s. Working on faster weight transfer through the lower body during high reaches can minimize prolonged static arm loads."
+    ],
+    "limitations": [
+      "Frequent tracking dropouts: Multiple sample points contain null values for elbow and knee angles (e.g., right elbow is unrecorded from 6.27s through 15.68s, and left elbow is null from 18.82s to 21.96s), limiting continuous kinematic assessment.",
+      "Absence of route and wall context: The data lacks information regarding wall angle, hold size, hold orientation, and body orientation relative to the camera, all of which directly influence joint angles and velocity profiles.",
+      "Perspective and 2D projection bias: Joint angles derived from monocular pose estimation are susceptible to foreshortening and out-of-plane rotations, which may not reflect true three-dimensional anatomical angles."
+    ]
+  }
+}

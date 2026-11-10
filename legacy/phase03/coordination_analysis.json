@@ -1,0 +1,142 @@
+{
+    "total_movements": 3,
+    "coordination_analyses": [
+        {
+            "source": "metrics.json",
+            "foot": "left",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 347,
+                    "end": 369
+                },
+                "second_event": {
+                    "start": 388,
+                    "end": 400
+                }
+            },
+            "elbow_hip_coordination": {
+                "pattern": "elbow_flexion_with_upward_hip_movement",
+                "flexing_arms": [
+                    "left_elbow",
+                    "right_elbow"
+                ],
+                "hip_observation": "downward_to_upward"
+            },
+            "foot_stability": {
+                "windows": {
+                    "before": {
+                        "average_speed": 0.4084420328639301,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    },
+                    "between": {
+                        "average_speed": 0.6643300012368976,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    },
+                    "after": {
+                        "average_speed": 0.5376366546508297,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    }
+                },
+                "speed_changes": {
+                    "before_to_between": 0.25588796837296746,
+                    "between_to_after": -0.1266933465860679
+                }
+            }
+        },
+        {
+            "source": "metrics.json",
+            "foot": "right",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 351,
+                    "end": 364
+                },
+                "second_event": {
+                    "start": 379,
+                    "end": 382
+                }
+            },
+            "elbow_hip_coordination": {
+                "pattern": "elbow_flexion_with_upward_hip_movement",
+                "flexing_arms": [
+                    "left_elbow",
+                    "right_elbow"
+                ],
+                "hip_observation": "downward_to_upward"
+            },
+            "foot_stability": {
+                "windows": {
+                    "before": {
+                        "average_speed": 0.45720758061890576,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    },
+                    "between": {
+                        "average_speed": 0.39733569121423157,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    },
+                    "after": {
+                        "average_speed": 0.8533265222950833,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    }
+                },
+                "speed_changes": {
+                    "before_to_between": -0.059871889404674195,
+                    "between_to_after": 0.45599083108085176
+                }
+            }
+        },
+        {
+            "source": "metrics_tension.json",
+            "foot": "right",
+            "movement_type": "heel_hook_readjustment",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 664,
+                    "end": 673
+                },
+                "second_event": {
+                    "start": 682,
+                    "end": 682
+                }
+            },
+            "elbow_hip_coordination": {
+                "pattern": "elbow_flexion_with_upward_hip_movement",
+                "flexing_arms": [
+                    "left_elbow"
+                ],
+                "hip_observation": "continued_upward"
+            },
+            "foot_stability": {
+                "windows": {
+                    "before": {
+                        "average_speed": 0.7718876181714106,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    },
+                    "between": {
+                        "average_speed": 0.38332393075951693,
+                        "tracking_coverage": 100.0,
+                        "reliable": true
+                    },
+                    "after": {
+                        "average_speed": 0.5333287737821045,
+                        "tracking_coverage": 10.0,
+                        "reliable": false
+                    }
+                },
+                "speed_changes": {
+                    "before_to_between": -0.3885636874118937,
+                    "between_to_after": null
+                }
+            }
+        }
+    ]
+}

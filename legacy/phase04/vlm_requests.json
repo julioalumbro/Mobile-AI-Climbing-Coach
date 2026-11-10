@@ -1,0 +1,243 @@
+{
+    "total_requests": 3,
+    "total_images": 26,
+    "requests": [
+        {
+            "source": "metrics.json",
+            "video_file": "climbingTestDeepBentElbow.mov",
+            "clip_file": "phase04/clips/climbingTestDeepBentElbow_left_release_return.mp4",
+            "movement": {
+                "foot": "left",
+                "movement_type": "release_return",
+                "frame_ranges": {
+                    "first_event": {
+                        "start": 347,
+                        "end": 369
+                    },
+                    "second_event": {
+                        "start": 388,
+                        "end": 400
+                    }
+                }
+            },
+            "images": [
+                {
+                    "original_frame": 332,
+                    "clip_frame": 43,
+                    "clip_timestamp_seconds": 0.735,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_332.jpg"
+                },
+                {
+                    "original_frame": 347,
+                    "clip_frame": 58,
+                    "clip_timestamp_seconds": 0.992,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_347.jpg"
+                },
+                {
+                    "original_frame": 358,
+                    "clip_frame": 69,
+                    "clip_timestamp_seconds": 1.18,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_358.jpg"
+                },
+                {
+                    "original_frame": 369,
+                    "clip_frame": 80,
+                    "clip_timestamp_seconds": 1.368,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_369.jpg"
+                },
+                {
+                    "original_frame": 373,
+                    "clip_frame": 84,
+                    "clip_timestamp_seconds": 1.437,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_373.jpg"
+                },
+                {
+                    "original_frame": 384,
+                    "clip_frame": 95,
+                    "clip_timestamp_seconds": 1.625,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_384.jpg"
+                },
+                {
+                    "original_frame": 388,
+                    "clip_frame": 99,
+                    "clip_timestamp_seconds": 1.693,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_388.jpg"
+                },
+                {
+                    "original_frame": 394,
+                    "clip_frame": 105,
+                    "clip_timestamp_seconds": 1.796,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_394.jpg"
+                },
+                {
+                    "original_frame": 400,
+                    "clip_frame": 111,
+                    "clip_timestamp_seconds": 1.898,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_400.jpg"
+                },
+                {
+                    "original_frame": 415,
+                    "clip_frame": 126,
+                    "clip_timestamp_seconds": 2.155,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_left_release_return/original_frame_415.jpg"
+                }
+            ],
+            "questions": {
+                "foot": [
+                    "After the foot returns, does it visibly establish contact with a foothold? Describe what can be observed."
+                ],
+                "upper_body": "During the upward movement, how do the climber's arms and legs appear to coordinate? Describe visible elbow bending, foot positioning, and body movement. Do not assume elbow flexion indicates excessive arm reliance."
+            }
+        },
+        {
+            "source": "metrics.json",
+            "video_file": "climbingTestDeepBentElbow.mov",
+            "clip_file": "phase04/clips/climbingTestDeepBentElbow_right_release_return.mp4",
+            "movement": {
+                "foot": "right",
+                "movement_type": "release_return",
+                "frame_ranges": {
+                    "first_event": {
+                        "start": 351,
+                        "end": 364
+                    },
+                    "second_event": {
+                        "start": 379,
+                        "end": 382
+                    }
+                }
+            },
+            "images": [
+                {
+                    "original_frame": 336,
+                    "clip_frame": 43,
+                    "clip_timestamp_seconds": 0.735,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_336.jpg"
+                },
+                {
+                    "original_frame": 351,
+                    "clip_frame": 58,
+                    "clip_timestamp_seconds": 0.992,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_351.jpg"
+                },
+                {
+                    "original_frame": 357,
+                    "clip_frame": 64,
+                    "clip_timestamp_seconds": 1.095,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_357.jpg"
+                },
+                {
+                    "original_frame": 364,
+                    "clip_frame": 71,
+                    "clip_timestamp_seconds": 1.214,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_364.jpg"
+                },
+                {
+                    "original_frame": 379,
+                    "clip_frame": 86,
+                    "clip_timestamp_seconds": 1.471,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_379.jpg"
+                },
+                {
+                    "original_frame": 380,
+                    "clip_frame": 87,
+                    "clip_timestamp_seconds": 1.488,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_380.jpg"
+                },
+                {
+                    "original_frame": 382,
+                    "clip_frame": 89,
+                    "clip_timestamp_seconds": 1.522,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_382.jpg"
+                },
+                {
+                    "original_frame": 397,
+                    "clip_frame": 104,
+                    "clip_timestamp_seconds": 1.779,
+                    "image_file": "phase04/vlm_frames/climbingTestDeepBentElbow_right_release_return/original_frame_397.jpg"
+                }
+            ],
+            "questions": {
+                "foot": [
+                    "After the foot returns, does it continue repositioning? Describe any visible adjustments."
+                ],
+                "upper_body": "During the upward movement, how do the climber's arms and legs appear to coordinate? Describe visible elbow bending, foot positioning, and body movement. Do not assume elbow flexion indicates excessive arm reliance."
+            }
+        },
+        {
+            "source": "metrics_tension.json",
+            "video_file": "climbingTestTension.mov",
+            "clip_file": "phase04/clips/climbingTestTension_right_heel_hook_readjustment.mp4",
+            "movement": {
+                "foot": "right",
+                "movement_type": "heel_hook_readjustment",
+                "frame_ranges": {
+                    "first_event": {
+                        "start": 664,
+                        "end": 673
+                    },
+                    "second_event": {
+                        "start": 682,
+                        "end": 682
+                    }
+                }
+            },
+            "images": [
+                {
+                    "original_frame": 649,
+                    "clip_frame": 45,
+                    "clip_timestamp_seconds": 0.751,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_649.jpg"
+                },
+                {
+                    "original_frame": 664,
+                    "clip_frame": 60,
+                    "clip_timestamp_seconds": 1.001,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_664.jpg"
+                },
+                {
+                    "original_frame": 667,
+                    "clip_frame": 63,
+                    "clip_timestamp_seconds": 1.051,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_667.jpg"
+                },
+                {
+                    "original_frame": 668,
+                    "clip_frame": 64,
+                    "clip_timestamp_seconds": 1.068,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_668.jpg"
+                },
+                {
+                    "original_frame": 673,
+                    "clip_frame": 69,
+                    "clip_timestamp_seconds": 1.151,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_673.jpg"
+                },
+                {
+                    "original_frame": 682,
+                    "clip_frame": 78,
+                    "clip_timestamp_seconds": 1.301,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_682.jpg"
+                },
+                {
+                    "original_frame": 688,
+                    "clip_frame": 84,
+                    "clip_timestamp_seconds": 1.402,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_688.jpg"
+                },
+                {
+                    "original_frame": 697,
+                    "clip_frame": 93,
+                    "clip_timestamp_seconds": 1.552,
+                    "image_file": "phase04/vlm_frames/climbingTestTension_right_heel_hook_readjustment/original_frame_697.jpg"
+                }
+            ],
+            "questions": {
+                "foot": [
+                    "During the heel-hook readjustment, is the heel visibly engaged with a hold? Describe what can be observed, including any occlusion or uncertainty."
+                ],
+                "upper_body": "During this movement, how does the climber's upper body move relative to their hips and feet? Describe visible arm positioning and weight transfer cues. Do not assume the untracked elbow was inactive."
+            }
+        }
+    ]
+}

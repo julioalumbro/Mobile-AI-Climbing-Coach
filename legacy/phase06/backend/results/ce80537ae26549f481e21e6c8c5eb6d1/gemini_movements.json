@@ -1,0 +1,106 @@
+{
+    "movements": [
+        {
+            "start_seconds": 0.0,
+            "end_seconds": 2.5,
+            "movement_type": "Foot Placement",
+            "body_parts": [
+                "left foot",
+                "right foot"
+            ],
+            "observation": "The climber positions both feet on low footholds while establishing balance on the steep board.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 2.5,
+            "end_seconds": 5.5,
+            "movement_type": "Hand Movement",
+            "body_parts": [
+                "left hand",
+                "left arm"
+            ],
+            "observation": "The climber reaches their left hand up to grasp a higher hold while keeping the right hand anchored.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 5.5,
+            "end_seconds": 8.0,
+            "movement_type": "Foot Placement",
+            "body_parts": [
+                "left foot",
+                "left leg"
+            ],
+            "observation": "The climber steps their left foot higher up the board to create upward leverage.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 8.0,
+            "end_seconds": 11.0,
+            "movement_type": "Hand Movement",
+            "body_parts": [
+                "right hand",
+                "right arm"
+            ],
+            "observation": "The climber moves their right hand from the side hold inward to a central hold.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 11.0,
+            "end_seconds": 14.0,
+            "movement_type": "Foot Placement",
+            "body_parts": [
+                "right foot",
+                "right leg"
+            ],
+            "observation": "The climber steps their right foot out wide right onto a foothold to stabilize body position.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 14.5,
+            "end_seconds": 18.0,
+            "movement_type": "Hand Movement",
+            "body_parts": [
+                "left hand",
+                "left arm",
+                "core"
+            ],
+            "observation": "The climber executes a long reach upward with the left hand to latch an overhead hold.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 18.5,
+            "end_seconds": 21.5,
+            "movement_type": "Foot Placement",
+            "body_parts": [
+                "left foot",
+                "right foot"
+            ],
+            "observation": "The climber tracks both feet up to higher footholds, tucking the hips into the wall.",
+            "confidence": "medium"
+        },
+        {
+            "start_seconds": 21.5,
+            "end_seconds": 24.5,
+            "movement_type": "Dynamic Movement",
+            "body_parts": [
+                "right hand",
+                "right arm",
+                "upper body"
+            ],
+            "observation": "The climber drives upward dynamically to hit a high finishing hold near the top with the right hand.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 24.5,
+            "end_seconds": 28.0,
+            "movement_type": "Stabilization",
+            "body_parts": [
+                "left foot",
+                "right foot",
+                "core"
+            ],
+            "observation": "The climber brings feet onto higher holds and stabilizes position at the top.",
+            "confidence": "high"
+        }
+    ]
+}

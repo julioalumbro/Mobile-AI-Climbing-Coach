@@ -1,0 +1,83 @@
+{
+    "movements": [
+        {
+            "start_seconds": 0.5,
+            "end_seconds": 3.5,
+            "movement_type": "foot placement",
+            "body_parts": [
+                "left foot",
+                "right foot"
+            ],
+            "observation": "Climber repositions feet on the lower footholds to stabilize on the steep wall.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 4.5,
+            "end_seconds": 7.5,
+            "movement_type": "high step",
+            "body_parts": [
+                "left leg",
+                "left foot"
+            ],
+            "observation": "Climber raises the left foot onto a significantly higher foothold to prepare for an upward reach.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 7.5,
+            "end_seconds": 10.0,
+            "movement_type": "hand movement",
+            "body_parts": [
+                "right hand",
+                "right arm"
+            ],
+            "observation": "Climber moves the right hand upward to a higher hold on the board.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 10.0,
+            "end_seconds": 13.0,
+            "movement_type": "foot placement",
+            "body_parts": [
+                "right leg",
+                "right foot"
+            ],
+            "observation": "Climber extends the right foot out wide to track a foothold near the right perimeter.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 13.5,
+            "end_seconds": 17.5,
+            "movement_type": "hand movement",
+            "body_parts": [
+                "left hand",
+                "left arm"
+            ],
+            "observation": "Climber reaches long with the left hand to an upper hold.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 20.0,
+            "end_seconds": 24.0,
+            "movement_type": "deadpoint",
+            "body_parts": [
+                "right hand",
+                "left hand",
+                "core",
+                "legs"
+            ],
+            "observation": "Climber drives dynamically through the hips and latches higher holds with both hands.",
+            "confidence": "high"
+        },
+        {
+            "start_seconds": 24.0,
+            "end_seconds": 28.0,
+            "movement_type": "foot placement",
+            "body_parts": [
+                "left foot",
+                "right foot"
+            ],
+            "observation": "Climber walks both feet up onto higher holds to secure balance at the top of the problem.",
+            "confidence": "high"
+        }
+    ]
+}

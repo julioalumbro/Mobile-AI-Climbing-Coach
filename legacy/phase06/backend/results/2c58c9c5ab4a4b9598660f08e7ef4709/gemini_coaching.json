@@ -1,0 +1,21 @@
+{
+  "fingerprint": "0e006d59250330ef05276e3b7b6031ca8a028d3c74c4186bd4bcaaf5aa1b5225",
+  "coaching": {
+    "overall_assessment": "The 31.35-second sequence captures distinct climbing phases characterized by a sustained left-arm deep bend around 16.2\u201318.3 seconds (reaching 29.4\u00b0 elbow flexion) and a series of brief, rapid right-arm flexions between 23.8 and 30.9 seconds. Lower-body data indicates active knee flexion (angles below 60\u00b0) across several intervals, corresponding with upward hip vertical velocity peaks up to +0.044.",
+    "strengths": [
+      "Demonstrated static holding capacity on the left upper body, maintaining a deep bend interval for approximately 2.07 seconds between 16.22s and 18.29s.",
+      "Effective lower-body engagement and high-step usage, evidenced by deep knee flexion (e.g., left knee at 54.3\u00b0 at 9.41s and 42.0\u00b0 at 26.66s; right knee at 48.2\u00b0 at 17.25s and 41.9\u00b0 at 18.82s).",
+      "Rapid contact execution in the later phase (23.8s\u201330.9s), where right-arm deep bend intervals averaged only 0.21 seconds, suggesting quick transitions rather than fatiguing over-gripping."
+    ],
+    "improvements": [
+      "Work on hip trajectory consistency: Negative hip vertical velocity spikes (notably -0.085 at 10.98s) suggest sudden drops or hesitation; focusing on continuous lower-body drive could yield smoother upward movement.",
+      "Address unilateral lock-off endurance: While the left arm sustained a 2.07-second hold, the right arm's longest deep bend was 0.63 seconds; incorporating balanced lock-off conditioning could improve stability when right-arm holds are required.",
+      "Coordinate arm pull with lower-body extension: At 17.25s, maximum left-arm flexion (29.4\u00b0) coincided with an extended left knee (161.0\u00b0) and flexed right knee (48.2\u00b0); practicing synchronized hip-driven extension may reduce excessive mechanical load on the pulling arm."
+    ],
+    "limitations": [
+      "Frequent missing joint data (null values) for the right elbow between 6.27s and 15.68s, as well as multiple knee intervals, preventing a complete kinetic chain evaluation.",
+      "Lack of contextual wall data: Hold sizes, wall angle, hold orientations, and route grade are unknown, meaning joint angles cannot be conclusively labeled as optimal or sub-optimal technique.",
+      "2D landmark estimation from MediaPipe is susceptible to parallax and perspective distortion, which limits the precision of measured joint angles and hip velocity."
+    ]
+  }
+}

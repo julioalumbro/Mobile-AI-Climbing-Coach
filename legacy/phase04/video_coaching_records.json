@@ -1,0 +1,77 @@
+{
+    "total_movements": 3,
+    "records": [
+        {
+            "source": "metrics.json",
+            "video_file": "climbingTestDeepBentElbow.mov",
+            "foot": "left",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 347,
+                    "end": 369
+                },
+                "second_event": {
+                    "start": 388,
+                    "end": 400
+                }
+            },
+            "coaching_focus": "foot_contact_and_body_position",
+            "upper_body_context": "bilateral_elbow_flexion",
+            "recommendations": {
+                "foot": "Foot movement decreased after the release-return. Review whether the climber established secure foot contact before continuing upward.",
+                "upper_body": "Both elbows showed increased flexion during a movement cycle with upward hip motion. When reviewing the footage, consider how the climber used their feet and arms to support the upward movement."
+            },
+            "requires_video_review": true,
+            "clip_file": "phase04\\clips\\climbingTestDeepBentElbow_left_release_return.mp4"
+        },
+        {
+            "source": "metrics.json",
+            "video_file": "climbingTestDeepBentElbow.mov",
+            "foot": "right",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 351,
+                    "end": 364
+                },
+                "second_event": {
+                    "start": 379,
+                    "end": 382
+                }
+            },
+            "coaching_focus": "foot_repositioning_and_weight_transfer",
+            "upper_body_context": "bilateral_elbow_flexion",
+            "recommendations": {
+                "foot": "Review whether the foot continued repositioning after the release-return. Examine how the climber transferred weight through the foot while moving upward.",
+                "upper_body": "Both elbows showed increased flexion during a movement cycle with upward hip motion. When reviewing the footage, consider how the climber used their feet and arms to support the upward movement."
+            },
+            "requires_video_review": true,
+            "clip_file": "phase04\\clips\\climbingTestDeepBentElbow_right_release_return.mp4"
+        },
+        {
+            "source": "metrics_tension.json",
+            "video_file": "climbingTestTension.mov",
+            "foot": "right",
+            "movement_type": "heel_hook_readjustment",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 664,
+                    "end": 673
+                },
+                "second_event": {
+                    "start": 682,
+                    "end": 682
+                }
+            },
+            "coaching_focus": "verify_movement_in_video",
+            "upper_body_context": "partial_elbow_evidence",
+            "recommendations": {
+                "foot": "Foot tracking is insufficient for a reliable post-event comparison. Review the video before assessing foot placement or movement efficiency.",
+                "upper_body": "One elbow showed increased flexion alongside upward hip movement. Review body positioning and weight transfer without assuming the other elbow was inactive."
+            },
+            "requires_video_review": true,
+            "clip_file": "phase04\\clips\\climbingTestTension_right_heel_hook_readjustment.mp4"
+        }
+    ]
+}

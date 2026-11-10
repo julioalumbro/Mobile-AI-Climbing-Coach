@@ -1,0 +1,116 @@
+{
+    "total_movements": 3,
+    "feedback": [
+        {
+            "source": "metrics.json",
+            "foot": "left",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 347,
+                    "end": 369
+                },
+                "second_event": {
+                    "start": 388,
+                    "end": 400
+                }
+            },
+            "summary": "Verified release return involving the left foot. The left elbow became more bent, with an average angle decrease of 18.86°. The right elbow became more bent, with an average angle decrease of 24.39°. Average hip movement transitioned from downward or stationary to upward in image coordinates",
+            "observations": {
+                "elbows": [
+                    {
+                        "body_part": "left_elbow",
+                        "observation": "increased_flexion",
+                        "angle_change": -18.856376718238877
+                    },
+                    {
+                        "body_part": "right_elbow",
+                        "observation": "increased_flexion",
+                        "angle_change": -24.38718759856063
+                    }
+                ],
+                "hips": {
+                    "body_part": "hips",
+                    "observation": "downward_to_upward",
+                    "velocity_before": 0.02171373367309568,
+                    "velocity_during": -0.06301179809044073,
+                    "velocity_change": -0.08472553176353641
+                }
+            }
+        },
+        {
+            "source": "metrics.json",
+            "foot": "right",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 351,
+                    "end": 364
+                },
+                "second_event": {
+                    "start": 379,
+                    "end": 382
+                }
+            },
+            "summary": "Verified release return involving the right foot. The left elbow became more bent, with an average angle decrease of 20.52°. The right elbow became more bent, with an average angle decrease of 13.45°. Average hip movement transitioned from downward or stationary to upward in image coordinates",
+            "observations": {
+                "elbows": [
+                    {
+                        "body_part": "left_elbow",
+                        "observation": "increased_flexion",
+                        "angle_change": -20.52245477607913
+                    },
+                    {
+                        "body_part": "right_elbow",
+                        "observation": "increased_flexion",
+                        "angle_change": -13.451782672431946
+                    }
+                ],
+                "hips": {
+                    "body_part": "hips",
+                    "observation": "downward_to_upward",
+                    "velocity_before": 0.007335958669948839,
+                    "velocity_during": -0.06309148996091465,
+                    "velocity_change": -0.07042744863086349
+                }
+            }
+        },
+        {
+            "source": "metrics_tension.json",
+            "foot": "right",
+            "movement_type": "heel_hook_readjustment",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 664,
+                    "end": 673
+                },
+                "second_event": {
+                    "start": 682,
+                    "end": 682
+                }
+            },
+            "summary": "Verified heel hook readjustment involving the right foot. The left elbow became more bent, with an average angle decrease of 26.39°. Right elbow movement could not be reliably measured. The hips continued moving upward on average during the foot movement.",
+            "observations": {
+                "elbows": [
+                    {
+                        "body_part": "left_elbow",
+                        "observation": "increased_flexion",
+                        "angle_change": -26.391881999042937
+                    },
+                    {
+                        "body_part": "right_elbow",
+                        "observation": "unavailable",
+                        "angle_change": null
+                    }
+                ],
+                "hips": {
+                    "body_part": "hips",
+                    "observation": "continued_upward",
+                    "velocity_before": -0.07249378403827171,
+                    "velocity_during": -0.07027271111409703,
+                    "velocity_change": 0.0022210729241746857
+                }
+            }
+        }
+    ]
+}

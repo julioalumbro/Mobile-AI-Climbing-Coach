@@ -1,0 +1,54 @@
+AI CLIMBING COACH - MOVEMENT ANALYSIS REPORT
+=======================================================
+
+MOVEMENT: 1
+-------------------------------------------------------
+Movement: Left Foot - Release Return
+Source: metrics.json
+First_Event: Frames 347-369
+Second_Event: 388-400
+
+FOOT MOVEMENT
+Foot movement decreased after the event. Review whether the foot established secure contact before initiating the next movement.
+
+UPPER_BODY COORDINATION
+Both elbows flexed during a movement cycle with upward hip motion Review whether the climber used their legs effectively or relied heavily on pulling with their arms
+
+Note: These observations require video review and do not confirm technique errors.
+
+=======================================================
+
+MOVEMENT: 2
+-------------------------------------------------------
+Movement: Right Foot - Release Return
+Source: metrics.json
+First_Event: Frames 351-364
+Second_Event: 379-382
+
+FOOT MOVEMENT
+Review whether the foot continued repositioning after the movement. Consider practicing deliberate foot placement and controlled weight transfer.
+
+UPPER_BODY COORDINATION
+Both elbows flexed during a movement cycle with upward hip motion Review whether the climber used their legs effectively or relied heavily on pulling with their arms
+
+Note: These observations require video review and do not confirm technique errors.
+
+=======================================================
+
+MOVEMENT: 3
+-------------------------------------------------------
+Movement: Right Foot - Heel Hook Readjustment
+Source: metrics_tension.json
+First_Event: Frames 664-673
+Second_Event: 682-682
+
+FOOT MOVEMENT
+Post-event foot tracking was insufficient. Review the original footage before assessing foot placement or stability.
+
+UPPER_BODY COORDINATION
+One elbow showed increased flexion alongside upward hip movement. Review the climber's body positioning and weight transfer. Do not assume the other arm was inactive.
+
+Note: These observations require video review and do not confirm technique errors.
+
+=======================================================
+

@@ -1,0 +1,46 @@
+{
+  "fingerprint": "39571b054f871c4dfb2b64890e605ad36901a826a3aa05464d3d58c91fc5c46f",
+  "evaluation": {
+    "recommendation_evaluations": [
+      {
+        "recommendation_index": 0,
+        "evidence_accuracy": {
+          "score": 5,
+          "reasoning": "The observation accurately cites the supported left elbow flexion of approximately 15.5 degrees without asserting contradicted or unverified metrics as facts.",
+          "issues": []
+        },
+        "reasoning_quality": {
+          "score": 5,
+          "reasoning": "The reasoning avoids universal technique assumptions by refusing to declare arm extension superior; instead, it frames the intervention as a comparative experiment balancing heel hook stability against fatigue.",
+          "issues": []
+        },
+        "actionability": {
+          "score": 5,
+          "reasoning": "The recommendation provides an explicit, testable drill comparing active pulling against a more extended arm during the specific phase of lifting and placing the heel hook.",
+          "issues": []
+        },
+        "climbing_relevance": {
+          "score": 5,
+          "reasoning": "Directly addresses the mechanics of body tension and lock-off necessity during heel hook placements without fabricating hold types or route specifications.",
+          "issues": []
+        },
+        "uncertainty_handling": {
+          "score": 5,
+          "reasoning": "Explicitly highlights that foot contact timing is unverified, right limb tracking is absent, and hip movement is contradicted, directly hedging whether elbow flexion is compensatory or optimal.",
+          "issues": []
+        },
+        "suggested_improvement": "Include explicit somatic or tactile checkpoints (such as hamstring engagement or foot placement precision) to help the climber objectively evaluate hook security during both experimental trials."
+      }
+    ],
+    "overall_strengths": [
+      "Strong adherence to verified quantitative data without extrapolating from unmeasured limbs.",
+      "Excellent uncertainty handling that directly addresses contradictory hip movement and unverified foot contacts.",
+      "Practical, non-dogmatic coaching recommendation structured as an experimental self-test."
+    ],
+    "overall_weaknesses": [
+      "The underlying data contains major tracking deficits, including complete occlusion of the right limbs and unresolved hip trajectory discrepancies."
+    ],
+    "overall_confidence": "high",
+    "requires_human_review": true
+  }
+}

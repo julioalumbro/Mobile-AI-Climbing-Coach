@@ -1,0 +1,49 @@
+{
+  "fingerprint": "4d658aabc07f03a26e84b784fe8e0a57bea6412ec143a65d84817590a2dd7e4e",
+  "evaluation": {
+    "recommendation_evaluations": [
+      {
+        "recommendation_index": 0,
+        "evidence_accuracy": {
+          "score": 5,
+          "reasoning": "The observation directly reflects the verified measurement of left elbow flexion of 15.48 degrees, which was supported by both MediaPipe and visual interpretation.",
+          "issues": []
+        },
+        "reasoning_quality": {
+          "score": 5,
+          "reasoning": "The coaching appropriately frames the adjustment as an exploratory trial rather than an absolute rule, explicitly considering that arm flexion might be required for balance given the lack of lower-body load data.",
+          "issues": []
+        },
+        "actionability": {
+          "score": 4,
+          "reasoning": "The cue instructs the climber to focus tension through the heel hook prior to pulling with the left arm and evaluate stability, providing a clear experimental task during practice.",
+          "issues": [
+            "Lacks specific timing details regarding the exact moment of foot placement relative to arm engagement."
+          ]
+        },
+        "climbing_relevance": {
+          "score": 5,
+          "reasoning": "The advice addresses the functional relationship between heel hook tension and upper-body strain in overhanging terrain without imposing rigid assumptions that arms must remain straight.",
+          "issues": []
+        },
+        "uncertainty_handling": {
+          "score": 5,
+          "reasoning": "The recommendation transparently states that right leg engagement was unmeasured and hip data was contradictory, avoiding unverified causal claims.",
+          "issues": []
+        },
+        "suggested_improvement": "Specify the exact phase of the readjustment (e.g., foot placement vs. body pull) to help the climber time the focus on heel engagement."
+      }
+    ],
+    "overall_strengths": [
+      "Appropriately treats movement adjustments as exploratory experiments rather than prescriptive dogma.",
+      "Accurately reports supported quantitative metrics without overstating confidence.",
+      "Explicitly highlights tracking gaps and conflicting hip movement data."
+    ],
+    "overall_weaknesses": [
+      "Analysis is heavily constrained by missing tracking data on the right arm and right leg.",
+      "Does not provide definitive technical instruction due to contradictory hip trajectory measurements."
+    ],
+    "overall_confidence": "medium",
+    "requires_human_review": true
+  }
+}

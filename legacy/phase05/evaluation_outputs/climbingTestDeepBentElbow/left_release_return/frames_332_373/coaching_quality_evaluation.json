@@ -1,0 +1,50 @@
+{
+  "fingerprint": "d9adff71e044d3a9d993a39a20f202f30dba11218116f21d8517ef5f8c0f9305",
+  "evaluation": {
+    "recommendation_evaluations": [
+      {
+        "recommendation_index": 0,
+        "evidence_accuracy": {
+          "score": 5,
+          "reasoning": "The observation accurately reflects the supported measurements for left elbow flexion (-34.5 degrees), left knee flexion (-53.9 degrees), and image-right hip displacement without citing unverified or contradicted claims.",
+          "issues": []
+        },
+        "reasoning_quality": {
+          "score": 5,
+          "reasoning": "The reasoning is exploratory rather than prescriptive. It frames the adjustment as a testable hypothesis and explicitly considers that deep elbow flexion may be structurally necessary rather than inherently inefficient.",
+          "issues": []
+        },
+        "actionability": {
+          "score": 4,
+          "reasoning": "The climber receives a clear diagnostic task to compare extended versus deeply flexed arm positions during controlled repetitions, although the precise timing of the cue during the release phase could be slightly more detailed.",
+          "issues": [
+            "Could specify exact movement cues or foot position awareness during the release phase."
+          ]
+        },
+        "climbing_relevance": {
+          "score": 4,
+          "reasoning": "The advice addresses the mechanics of a cut-loose/swing movement without inventing unseen hold orientations, wall angles, or foothold contacts, and respects that straight arms are not universally ideal in dynamic scenarios.",
+          "issues": [
+            "Without wall angle context or hold orientation, the feasibility of maintaining a more extended arm during a dynamic swing remains somewhat uncertain."
+          ]
+        },
+        "uncertainty_handling": {
+          "score": 5,
+          "reasoning": "The uncertainty statement explicitly highlights the absence of hold geometry, hold quality, and clear right arm kinematic data, refraining from asserting unverified causal benefits.",
+          "issues": []
+        },
+        "suggested_improvement": "Specify how the climber should manage momentum or swing control when initiating the movement with a more extended arm."
+      }
+    ],
+    "overall_strengths": [
+      "Strictly relies on supported evidence reconciliations while avoiding contradicted right elbow data.",
+      "Frames coaching advice as an empirical self-test rather than making unsupported assertions of technical superiority.",
+      "Properly isolates unresolved contradictions regarding the right elbow into review notes."
+    ],
+    "overall_weaknesses": [
+      "Lacks contextual information regarding wall angle and hold orientation, which limits how concretely the climber can apply arm positioning."
+    ],
+    "overall_confidence": "high",
+    "requires_human_review": true
+  }
+}

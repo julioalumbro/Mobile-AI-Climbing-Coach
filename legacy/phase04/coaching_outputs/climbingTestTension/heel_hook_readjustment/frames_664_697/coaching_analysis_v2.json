@@ -1,0 +1,19 @@
+{
+  "movement_summary": "During a heel hook readjustment movement, the climber demonstrates left elbow flexion while repositioning the foot from a lower hold to a higher position, though hip trajectory and right-side kinematics remain unverified or contested.",
+  "recommendations": [
+    {
+      "observation": "The climber exhibits flexion in the left arm during the repositioning movement, with a measured angle change of approximately -15.5 degrees.",
+      "suggested_adjustment": "Test whether the left arm flexion is necessary for stabilizing the heel hook placement. As a controlled experiment when preparing to lift and place the foot, try one attempt actively pulling with the left elbow to secure body position, and a second attempt keeping the left arm more extended to let the lower body guide the reach. Compare whether pulling deeper with the left arm improves control over the heel placement or unnecessarily increases upper-body fatigue.",
+      "supporting_evidence": [
+        "Left elbow movement"
+      ],
+      "uncertainty": "Foot release and placement phases derive solely from unverified visual observations. Because hip displacement is contradicted and right knee and right elbow kinematics are unavailable, it is uncertain whether left elbow flexion is a compensation for hip drift or an intentional, efficient stabilization."
+    }
+  ],
+  "needs_review": [
+    "Hip movement direction: Gemini reported movement toward image-right, while MediaPipe measured minimal horizontal displacement.",
+    "Right knee movement: MediaPipe measurement was unavailable, leaving knee angle and leg kinematics unverified.",
+    "Right elbow movement: MediaPipe measurement was unavailable, leaving upper right limb kinematics unverified."
+  ],
+  "overall_confidence": "low"
+}

@@ -1,0 +1,176 @@
+[
+    {
+        "movement_type": "Foot Placement",
+        "start_seconds": 0.0,
+        "end_seconds": 2.5,
+        "observation": "The climber positions both feet on low footholds while establishing balance on the steep board.",
+        "gemini_confidence": "high",
+        "evidence_status": "partially_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.159, min=0.002, max=0.693 (coverage=98.7%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "limited",
+                "message": "Right foot speed had limited tracking coverage (22.7%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "Hand Movement",
+        "start_seconds": 2.5,
+        "end_seconds": 5.5,
+        "observation": "The climber reaches their left hand up to grasp a higher hold while keeping the right hand anchored.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "supported",
+                "message": "Left elbow angle: mean=128.72, min=95.52, max=157.52 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "Foot Placement",
+        "start_seconds": 5.5,
+        "end_seconds": 8.0,
+        "observation": "The climber steps their left foot higher up the board to create upward leverage.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.286, min=0.009, max=1.633 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "Hand Movement",
+        "start_seconds": 8.0,
+        "end_seconds": 11.0,
+        "observation": "The climber moves their right hand from the side hold inward to a central hold.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "right_elbow",
+                "status": "limited",
+                "message": "Right elbow angle had limited tracking coverage (27.8%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "Foot Placement",
+        "start_seconds": 11.0,
+        "end_seconds": 14.0,
+        "observation": "The climber steps their right foot out wide right onto a foothold to stabilize body position.",
+        "gemini_confidence": "high",
+        "evidence_status": "insufficient_measurement_data",
+        "metric_evaluations": [
+            {
+                "metric": "right_foot_speed",
+                "status": "limited",
+                "message": "Right foot speed had limited tracking coverage (16.7%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "Hand Movement",
+        "start_seconds": 14.5,
+        "end_seconds": 18.0,
+        "observation": "The climber executes a long reach upward with the left hand to latch an overhead hold.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_elbow",
+                "status": "supported",
+                "message": "Left elbow angle: mean=94.97, min=22.12, max=169.79 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "Foot Placement",
+        "start_seconds": 18.5,
+        "end_seconds": 21.5,
+        "observation": "The climber tracks both feet up to higher footholds, tucking the hips into the wall.",
+        "gemini_confidence": "medium",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.25, min=0.008, max=1.385 (coverage=100.0%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.237, min=0.005, max=0.724 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    },
+    {
+        "movement_type": "Dynamic Movement",
+        "start_seconds": 21.5,
+        "end_seconds": 24.5,
+        "observation": "The climber drives upward dynamically to hit a high finishing hold near the top with the right hand.",
+        "gemini_confidence": "high",
+        "evidence_status": "partially_supported",
+        "metric_evaluations": [
+            {
+                "metric": "hip_vertical_velocity",
+                "status": "supported",
+                "message": "Hip vertical velocity: mean=-0.029, min=-0.16, max=0.08 (coverage=100.0%)."
+            },
+            {
+                "metric": "left_foot_speed",
+                "status": "supported",
+                "message": "Left foot speed: mean=0.394, min=0.009, max=1.787 (coverage=100.0%)."
+            },
+            {
+                "metric": "right_foot_speed",
+                "status": "supported",
+                "message": "Right foot speed: mean=0.46, min=0.031, max=1.899 (coverage=100.0%)."
+            },
+            {
+                "metric": "left_elbow",
+                "status": "limited",
+                "message": "Left elbow angle had limited tracking coverage (41.1%)."
+            },
+            {
+                "metric": "right_elbow",
+                "status": "supported",
+                "message": "Right elbow angle: mean=138.65, min=41.44, max=179.22 (coverage=96.7%)."
+            }
+        ],
+        "feedback": "Some relevant measurements are missing or have limited tracking coverage. Technique conclusions should be deferred until the movement can be reviewed with better evidence."
+    },
+    {
+        "movement_type": "Stabilization",
+        "start_seconds": 24.5,
+        "end_seconds": 28.0,
+        "observation": "The climber brings feet onto higher holds and stabilizes position at the top.",
+        "gemini_confidence": "high",
+        "evidence_status": "measurement_supported",
+        "metric_evaluations": [
+            {
+                "metric": "hip_vertical_velocity",
+                "status": "supported",
+                "message": "Hip vertical velocity: mean=0.009, min=-0.136, max=0.166 (coverage=100.0%)."
+            }
+        ],
+        "feedback": "Relevant movement measurements are available for review. These measurements describe body motion but do not, by themselves, establish climbing efficiency."
+    }
+]

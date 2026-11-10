@@ -1,0 +1,128 @@
+{
+    "total_movements": 3,
+    "vlm_inputs": [
+        {
+            "source": "metrics.json",
+            "video_file": "climbingTestDeepBentElbow.mov",
+            "clip_file": "phase04/clips/climbingTestDeepBentElbow_left_release_return.mp4",
+            "movement": {
+                "foot": "left",
+                "movement_type": "release_return",
+                "frame_ranges": {
+                    "first_event": {
+                        "start": 347,
+                        "end": 369
+                    },
+                    "second_event": {
+                        "start": 388,
+                        "end": 400
+                    }
+                }
+            },
+            "observations": {
+                "coaching_focus": "foot_contact_and_body_position",
+                "upper_body_context": "bilateral_elbow_flexion"
+            },
+            "vlm_questions": {
+                "foot": [
+                    "After the foot returns, does it visibly establish contact with a foothold? Describe what can be observed."
+                ],
+                "upper_body": "During the upward movement, how do the climber's arms and legs appear to coordinate? Describe visible elbow bending, foot positioning, and body movement. Do not assume elbow flexion indicates excessive arm reliance."
+            },
+            "existing_recommendations": {
+                "foot": "Foot movement decreased after the release-return. Review whether the climber established secure foot contact before continuing upward.",
+                "upper_body": "Both elbows showed increased flexion during a movement cycle with upward hip motion. When reviewing the footage, consider how the climber used their feet and arms to support the upward movement."
+            },
+            "requires_video_review": true,
+            "clip_metadata": {
+                "start_frame": 289,
+                "end_frame": 458,
+                "fps": 58.47025495750708,
+                "total_frames": 170,
+                "duration_seconds": 2.9074612403100777
+            }
+        },
+        {
+            "source": "metrics.json",
+            "video_file": "climbingTestDeepBentElbow.mov",
+            "clip_file": "phase04/clips/climbingTestDeepBentElbow_right_release_return.mp4",
+            "movement": {
+                "foot": "right",
+                "movement_type": "release_return",
+                "frame_ranges": {
+                    "first_event": {
+                        "start": 351,
+                        "end": 364
+                    },
+                    "second_event": {
+                        "start": 379,
+                        "end": 382
+                    }
+                }
+            },
+            "observations": {
+                "coaching_focus": "foot_repositioning_and_weight_transfer",
+                "upper_body_context": "bilateral_elbow_flexion"
+            },
+            "vlm_questions": {
+                "foot": [
+                    "After the foot returns, does it continue repositioning? Describe any visible adjustments."
+                ],
+                "upper_body": "During the upward movement, how do the climber's arms and legs appear to coordinate? Describe visible elbow bending, foot positioning, and body movement. Do not assume elbow flexion indicates excessive arm reliance."
+            },
+            "existing_recommendations": {
+                "foot": "Review whether the foot continued repositioning after the release-return. Examine how the climber transferred weight through the foot while moving upward.",
+                "upper_body": "Both elbows showed increased flexion during a movement cycle with upward hip motion. When reviewing the footage, consider how the climber used their feet and arms to support the upward movement."
+            },
+            "requires_video_review": true,
+            "clip_metadata": {
+                "start_frame": 293,
+                "end_frame": 440,
+                "fps": 58.47025495750708,
+                "total_frames": 148,
+                "duration_seconds": 2.531201550387597
+            }
+        },
+        {
+            "source": "metrics_tension.json",
+            "video_file": "climbingTestTension.mov",
+            "clip_file": "phase04/clips/climbingTestTension_right_heel_hook_readjustment.mp4",
+            "movement": {
+                "foot": "right",
+                "movement_type": "heel_hook_readjustment",
+                "frame_ranges": {
+                    "first_event": {
+                        "start": 664,
+                        "end": 673
+                    },
+                    "second_event": {
+                        "start": 682,
+                        "end": 682
+                    }
+                }
+            },
+            "observations": {
+                "coaching_focus": "verify_movement_in_video",
+                "upper_body_context": "partial_elbow_evidence"
+            },
+            "vlm_questions": {
+                "foot": [
+                    "During the heel-hook readjustment, is the heel visibly engaged with a hold? Describe what can be observed, including any occlusion or uncertainty."
+                ],
+                "upper_body": "During this movement, how does the climber's upper body move relative to their hips and feet? Describe visible arm positioning and weight transfer cues. Do not assume the untracked elbow was inactive."
+            },
+            "existing_recommendations": {
+                "foot": "Foot tracking is insufficient for a reliable post-event comparison. Review the video before assessing foot placement or movement efficiency.",
+                "upper_body": "One elbow showed increased flexion alongside upward hip movement. Review body positioning and weight transfer without assuming the other elbow was inactive."
+            },
+            "requires_video_review": true,
+            "clip_metadata": {
+                "start_frame": 604,
+                "end_frame": 742,
+                "fps": 59.93312456875962,
+                "total_frames": 139,
+                "duration_seconds": 2.3192516826071556
+            }
+        }
+    ]
+}

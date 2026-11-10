@@ -1,0 +1,127 @@
+{
+    "total_movements": 3,
+    "technique_feedback": [
+        {
+            "source": "metrics.json",
+            "foot": "left",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 347,
+                    "end": 369
+                },
+                "second_event": {
+                    "start": 388,
+                    "end": 400
+                }
+            },
+            "foot_analysis": {
+                "observation": {
+                    "observation": "decreased_post_event_foot_speed",
+                    "speed_change": -0.1266933465860679
+                },
+                "coaching_feedback": {
+                    "potential_issue": null,
+                    "confidence": "needs_video_review",
+                    "suggestion": "Foot movement decreased after the event. Review whether the foot established secure contact before initiating the next movement."
+                }
+            },
+            "upper_body_analysis": {
+                "observation": {
+                    "observation": "bilateral_elbow_flexion_with_upward_hips",
+                    "flexing_arms": [
+                        "left_elbow",
+                        "right_elbow"
+                    ],
+                    "hip_observation": "downward_to_upward"
+                },
+                "coaching_feedback": {
+                    "potential_issue": "review_arm_reliance",
+                    "confidence": "needs_video_review",
+                    "suggestion": "Both elbows flexed during a movement cycle with upward hip motion Review whether the climber used their legs effectively or relied heavily on pulling with their arms"
+                }
+            }
+        },
+        {
+            "source": "metrics.json",
+            "foot": "right",
+            "movement_type": "release_return",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 351,
+                    "end": 364
+                },
+                "second_event": {
+                    "start": 379,
+                    "end": 382
+                }
+            },
+            "foot_analysis": {
+                "observation": {
+                    "observation": "increased_post_event_foot_speed",
+                    "speed_change": 0.45599083108085176
+                },
+                "coaching_feedback": {
+                    "potential_issue": "continued_foot_movement",
+                    "confidence": "needs_video_review",
+                    "suggestion": "Review whether the foot continued repositioning after the movement. Consider practicing deliberate foot placement and controlled weight transfer."
+                }
+            },
+            "upper_body_analysis": {
+                "observation": {
+                    "observation": "bilateral_elbow_flexion_with_upward_hips",
+                    "flexing_arms": [
+                        "left_elbow",
+                        "right_elbow"
+                    ],
+                    "hip_observation": "downward_to_upward"
+                },
+                "coaching_feedback": {
+                    "potential_issue": "review_arm_reliance",
+                    "confidence": "needs_video_review",
+                    "suggestion": "Both elbows flexed during a movement cycle with upward hip motion Review whether the climber used their legs effectively or relied heavily on pulling with their arms"
+                }
+            }
+        },
+        {
+            "source": "metrics_tension.json",
+            "foot": "right",
+            "movement_type": "heel_hook_readjustment",
+            "frame_ranges": {
+                "first_event": {
+                    "start": 664,
+                    "end": 673
+                },
+                "second_event": {
+                    "start": 682,
+                    "end": 682
+                }
+            },
+            "foot_analysis": {
+                "observation": {
+                    "observation": "insufficient_tracking",
+                    "reason": "Insufficient reliable data to compare foot speed"
+                },
+                "coaching_feedback": {
+                    "potential_issue": null,
+                    "confidence": "insufficient_data",
+                    "suggestion": "Post-event foot tracking was insufficient. Review the original footage before assessing foot placement or stability."
+                }
+            },
+            "upper_body_analysis": {
+                "observation": {
+                    "observation": "single_observed_elbow_flexion_with_upward_hips",
+                    "flexing_arms": [
+                        "left_elbow"
+                    ],
+                    "hip_observation": "continued_upward"
+                },
+                "coaching_feedback": {
+                    "potential_issue": null,
+                    "confidence": "needs_video_review",
+                    "suggestion": "One elbow showed increased flexion alongside upward hip movement. Review the climber's body positioning and weight transfer. Do not assume the other arm was inactive."
+                }
+            }
+        }
+    ]
+}

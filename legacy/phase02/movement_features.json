@@ -1,0 +1,47 @@
+{
+    "total_movements": 3,
+    "features": [
+        {
+            "source": "metrics.json",
+            "foot": "left",
+            "movement_type": "release_return",
+            "left_elbow_change": -18.856376718238877,
+            "right_elbow_change": -24.38718759856063,
+            "hip_velocity_before": 0.02171373367309568,
+            "hip_velocity_during": -0.06301179809044073,
+            "hip_velocity_change": -0.08472553176353641,
+            "first_event_start": 347,
+            "first_event_end": 369,
+            "second_event_start": 388,
+            "second_event_end": 400
+        },
+        {
+            "source": "metrics.json",
+            "foot": "right",
+            "movement_type": "release_return",
+            "left_elbow_change": -20.52245477607913,
+            "right_elbow_change": -13.451782672431946,
+            "hip_velocity_before": 0.007335958669948839,
+            "hip_velocity_during": -0.06309148996091465,
+            "hip_velocity_change": -0.07042744863086349,
+            "first_event_start": 351,
+            "first_event_end": 364,
+            "second_event_start": 379,
+            "second_event_end": 382
+        },
+        {
+            "source": "metrics_tension.json",
+            "foot": "right",
+            "movement_type": "heel_hook_readjustment",
+            "left_elbow_change": -26.391881999042937,
+            "right_elbow_change": null,
+            "hip_velocity_before": -0.07249378403827171,
+            "hip_velocity_during": -0.07027271111409703,
+            "hip_velocity_change": 0.0022210729241746857,
+            "first_event_start": 664,
+            "first_event_end": 673,
+            "second_event_start": 682,
+            "second_event_end": 682
+        }
+    ]
+}

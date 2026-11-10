@@ -1,0 +1,14 @@
+# AI Climbing Coach server. Exact versions tested together.
+# Install: pip install -r requirements.txt
+# System dependency: FFmpeg (ffmpeg + ffprobe on PATH). The Dockerfile installs it.
+
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+python-dotenv==1.2.3
+google-genai==3.0.0
+mediapipe==0.10.32
+# mediapipe requires the contrib build of OpenCV; don't also install
+# opencv-python or opencv-python-headless (they conflict on the cv2 module).
+opencv-contrib-python==5.0.0.93
+numpy==2.5.3
