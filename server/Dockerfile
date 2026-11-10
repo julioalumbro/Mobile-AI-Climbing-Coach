@@ -19,7 +19,9 @@ COPY app ./app
 
 ENV DATA_DIR=/data \
     PYTHONUNBUFFERED=1
-VOLUME ["/data"]
+# Persistent storage: attach a Railway volume at /data (Service -> Volumes).
+# Railway doesn't support the Dockerfile VOLUME instruction.
+RUN mkdir -p /data
 EXPOSE 8000
 
 # One worker: background jobs and SQLite live in this process.
