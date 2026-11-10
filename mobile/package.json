@@ -1,5 +1,6 @@
 {
-  "name": "ai-climbing-coach-mobile",
+  "name": "mobile-ai-climbing-coach",
+  "repository": "github:julioalumbro/Mobile-AI-Climbing-Coach",
   "private": true,
   "version": "1.0.0-beta",
   "type": "module",

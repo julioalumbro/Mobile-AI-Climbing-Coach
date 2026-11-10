@@ -4,11 +4,14 @@ An AI-powered climbing analysis application that combines computer vision, pose 
 
 ## Mobile beta (current layout)
 
-The app is now a mobile web app (PWA) for a private beta. The original
-phase-by-phase build lives in `legacy/`.
+The app is now a mobile web app (PWA) for a private beta, developed in
+[Mobile-AI-Climbing-Coach](https://github.com/julioalumbro/Mobile-AI-Climbing-Coach).
+The original web version remains at
+[AI-Climbing-Project](https://github.com/julioalumbro/AI-Climbing-Project), and
+its phase-by-phase build lives in `legacy/`.
 
 ```text
-AI-Climbing-Project/
+Mobile-AI-Climbing-Coach/
 |-- server/     FastAPI + MediaPipe + Gemini API (deploys to Railway via Dockerfile)
 |-- mobile/     React + TypeScript PWA (deploys to Vercel)
 |-- legacy/     phase01-phase07: how the pipeline was built

@@ -1,5 +1,8 @@
 # Shipping the AI Climbing Coach beta
 
+Repo: https://github.com/julioalumbro/Mobile-AI-Climbing-Coach
+(the original web version stays at julioalumbro/AI-Climbing-Project, remote `web-version`).
+
 Three parts:
 
 | Part | Folder | Host | What testers see |
@@ -44,12 +47,12 @@ Create an invite code for yourself (see step 3, with `http://127.0.0.1:8000`).
 
 ## 1. Put the code on GitHub
 
-Commit and push the project as usual. `.env`, videos, `*.task` files,
+Commit and push to `origin` (Mobile-AI-Climbing-Coach): `git push -u origin main`. `.env`, videos, `*.task` files,
 `server/data/` and `node_modules/` are all gitignored.
 
 ## 2. Deploy the API on Railway
 
-1. railway.com → New Project → **Deploy from GitHub repo** → pick this repo.
+1. railway.com → New Project → **Deploy from GitHub repo** → pick **Mobile-AI-Climbing-Coach**.
 2. Open the service → **Settings**:
    - **Root Directory**: `server`
    - Railway will find `server/railway.json` and build the `Dockerfile`.
@@ -94,7 +97,7 @@ The code is shown **once** (only a hash is stored). Send it to the tester privat
 
 ## 4. Deploy the app on Vercel
 
-1. vercel.com → Add New → Project → import the same repo.
+1. vercel.com → Add New → Project → import **Mobile-AI-Climbing-Coach**.
 2. **Root Directory**: `mobile`. Framework is detected as Vite.
 3. **Environment Variables**: `VITE_API_BASE_URL` = your Railway URL
    (no trailing slash).
