@@ -16,9 +16,9 @@ jobs:
       run:
         working-directory: server
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
           cache: pip
@@ -30,7 +30,14 @@ jobs:
       - name: Install system packages
         run: |
           sudo apt-get update
-          sudo apt-get install -y --no-install-recommends ffmpeg libgl1 libglib2.0-0 libportaudio2
+          sudo apt-get install -y --no-install-recommends ffmpeg libgl1 libglib2.0-0 libportaudio2 pulseaudio
+
+      # `import mediapipe` loads sounddevice, which initializes PortAudio. On the
+      # Ubuntu runner PortAudio tries PulseAudio and fails hard when no server is
+      # running, so start a headless one. (The slim Docker image has no PulseAudio
+      # backend, so production is unaffected.)
+      - name: Start headless PulseAudio
+        run: pulseaudio --start --exit-idle-time=-1
 
       - name: Install Python dependencies
         run: pip install -r requirements-dev.txt
@@ -53,9 +60,9 @@ jobs:
       run:
         working-directory: mobile
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
           cache: npm
