@@ -1,0 +1,72 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  server-tests:
+    name: Server tests (pytest)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: server
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+          cache: pip
+          cache-dependency-path: |
+            server/requirements.txt
+            server/requirements-dev.txt
+
+      # Same native libraries the Dockerfile installs.
+      - name: Install system packages
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends ffmpeg libgl1 libglib2.0-0 libportaudio2 pulseaudio
+
+      # `import mediapipe` loads sounddevice, which initializes PortAudio. On the
+      # Ubuntu runner PortAudio tries PulseAudio and fails hard when no server is
+      # running, so start a headless one. (The slim Docker image has no PulseAudio
+      # backend, so production is unaffected.)
+      - name: Start headless PulseAudio
+        run: pulseaudio --start --exit-idle-time=-1
+
+      - name: Install Python dependencies
+        run: pip install -r requirements-dev.txt
+
+      - name: Download MediaPipe pose model
+        run: |
+          mkdir -p models
+          curl -fsSL -o models/pose_landmarker_full.task \
+            https://storage.googleapis.com/mediapipe-models/pose_landmarker/pose_landmarker_full/float16/latest/pose_landmarker_full.task
+
+      # Tests use a fake Gemini client: no API key or credits needed.
+      # Real-video tests skip when the sample clips (gitignored) are absent.
+      - name: Run tests
+        run: pytest -v -rs
+
+  mobile-build:
+    name: Mobile app (typecheck + build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mobile
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: mobile/package-lock.json
+
+      - run: npm ci
+      - run: npm run build

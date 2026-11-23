@@ -42,3 +42,6 @@ _to_delete/
 # Phase backups (several GB, too large for GitHub)
 legacy/PhaseZipFiles/
 *.zip
+
+# Generated analysis outputs (per-upload results from the phase06 web app)
+legacy/phase06/backend/results/
